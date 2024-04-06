@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-return-refund-policy-page": {
+      "type": "ecom-return-refund-policy-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-return-refund-policy-page"
+  ]
+}
