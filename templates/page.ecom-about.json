@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-about-page": {
+      "type": "ecom-about-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-about-page"
+  ]
+}
