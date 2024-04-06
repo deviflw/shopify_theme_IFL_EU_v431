@@ -1,0 +1,13 @@
+{% assign seo_block = collection.metafields.custom.seo_block %}
+
+{% case seo_block %}
+  {% when 'Watch Storage SEO Vanilla' %}
+    {% render 'ecom-watch-storage-seo-vanilla-block' %}
+  {% when 'Lifestyle Locker SEO Vanilla' %}
+    {% render 'ecom-lifestyle-locker-seo-vanilla-block' %}
+  {% when 'Watch Pouches SEO Vanilla' %}
+    {% render 'ecom-watch-pouches-seo-vanilla-block' %}
+
+  {% else %}
+    {% render 'ecom-default-ld-vanilla-block' %}
+{% endcase %}

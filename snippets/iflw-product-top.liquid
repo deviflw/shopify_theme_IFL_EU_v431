@@ -1,0 +1,10 @@
+{% assign iflwprodtype = product.type %}
+{% case iflwprodtype %}
+  {% when 'Original Citizen Watches', 'Original Tissot Watches', 'Swiss KubiK Accessories', 'Watch Straps' %}
+    {% render 'ecom-ifl-product-top-solo-soldier-block' %}
+  {% when 'Concept' %}
+    {% render 'ecom-ifl-product-top-vanilla-noatc-block' %}
+
+  {% else %}
+    {% render 'ecom-ifl-product-top-vanilla-block' %}
+{% endcase %}

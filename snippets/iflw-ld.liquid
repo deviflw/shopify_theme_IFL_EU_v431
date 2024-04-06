@@ -1,0 +1,83 @@
+{% assign long_description = product.metafields.custom.long_description %}
+
+{% case long_description %}
+  {% when 'Limited Edition' %}
+    {% render 'iflw-ltd-ld' %}
+  {% when 'Concept Available' %}
+    {% render 'iflw-ltd-available-concepts-ld' %}
+  {% when 'CasiOak Resin LD Vanilla' %}
+    {% render 'ecom-casioak-resin-ld-vanilla-block' %}
+  {% when 'CasiOak Steel LD Vanilla' %}
+    {% render 'ecom-casioak-steel-ld-vanilla-block' %}
+  {% when 'CasiOaks Full Metal LD Vanilla' %}
+    {% render 'ecom-casioak-full-metal-ld-vanilla-block' %}
+  {% when 'CasiOaks Mini LD Vanilla' %}
+    {% render 'ecom-casioak-mini-ld-vanilla-block' %}
+  {% when 'CasiOaks Sky LD Vanilla' %}
+    {% render 'ecom-casioak-sky-ld-vanilla-block' %}
+  {% when 'Art Gallery: IFL Wall Art LD Vanilla' %}
+    {% render 'ecom-ifl-wall-art-ld-vanilla-block' %}
+  {% when 'Art Gallery: Katy Barnfield LD Vanilla' %}
+    {% render 'ecom-katy-barnfield-ld-vanilla-block' %}
+  {% when 'Art Gallery: MrArtPride LD Vanilla' %}
+    {% render 'ecom-mrartpride-ld-vanilla-block' %}
+  {% when 'Art Gallery: Rad Astra LD Vanilla' %}
+    {% render 'ecom-rad-astra-ld-vanilla-block' %}
+  {% when 'Art Gallery: Dan Tanenbaum LD Vanilla' %}
+    {% render 'ecom-dan-tanenbaum-ld-vanilla-block' %}
+  {% when 'Art Gallery: Time Poor LD Vanilla' %}
+    {% render 'ecom-time-poor-ld-vanilla-block' %}
+  {% when 'Art Gallery: Pendulux LD Vanilla' %}
+    {% render 'ecom-pendulux-ld-vanilla-block' %}
+  {% when 'Lifestyle Locker LD Vanilla' %}
+    {% render 'ecom-lifestyle-locker-ld-vanilla-block' %}
+  {% when 'Watch Pouches LD Vanilla' %}
+    {% render 'ecom-watch-pouches-ld-vanilla-block' %}
+  {% when 'Mackenzie LD Vanilla' %}
+    {% render 'ecom-mackenzie-ld-vanilla-block' %}
+  {% when 'Camo Watch Boxes LD Vanilla' %}
+    {% render 'ecom-camo-watch-boxes-ld-vanilla-block' %}
+  {% when 'IFL Watch Box LD Vanilla' %}
+    {% render 'ecom-ifl-watch-box-ld-vanilla-block' %}
+  {% when 'Eaton LD Vanilla' %}
+    {% render 'ecom-eaton-ld-vanilla-block' %}
+  {% when 'EPI Watch Rolls LD Vanilla' %}
+    {% render 'ecom-epi-watch-rolls-ld-vanilla-block' %}
+  {% when 'Classic Watch Rolls LD Vanilla' %}
+    {% render 'ecom-classic-watch-rolls-ld-vanilla-block' %}
+  {% when 'Camo Watch Rolls LD Vanilla' %}
+    {% render 'ecom-camo-watch-rolls-ld-vanilla-block' %}
+  {% when 'Valet Trays LD Vanilla' %}
+    {% render 'ecom-valet-trays-ld-vanilla-block' %}
+  {% when 'Salmon WS LD Vanilla' %}
+    {% render 'ecom-salmon-ws-ld-vanilla-block' %}
+  {% when 'Marble WS LD Vanilla' %}
+    {% render 'ecom-marble-ws-ld-vanilla-block' %}
+  {% when 'Robotoys LD Vanilla' %}
+    {% render 'ecom-robotoys-ld-vanilla-block' %}
+  {% when 'Orbit Winder LD Vanilla' %}
+    {% render 'ecom-orbit-winder-ld-vanilla-block' %}
+  {% when 'Star Wars Winder LD Vanilla' %}
+    {% render 'ecom-star-wars-winder-ld-vanilla-block' %}
+  {% when 'Swiss KubiK LD Vanilla' %}
+    {% render 'ecom-swiss-kubik-ld-vanilla-block' %}
+  {% when 'Cufflinks LD Vanilla' %}
+    {% render 'ecom-cufflinks-ld-vanilla-block' %}
+  {% when 'PRX Straps LD Vanilla' %}
+    {% render 'ecom-prx-straps-ld-vanilla-block' %}
+  {% when 'Swiss KubiK Accessories LD Vanilla' %}
+    {% render 'ecom-swiss-kubik-access-ld-vanilla-block' %}
+  {% when 'Timeless Watch Rolls LD Vanilla' %}
+    {% render 'ecom-timeless-watch-rolls-ld-block' %}
+  {% when 'Timeless Camo Watch Rolls LD Vanilla' %}
+    {% render 'ecom-timeless-camo-watch-rolls-ld-block' %}
+  {% when 'Tissot PRX Series LD Vanilla' %}
+    {% render 'ecom-tissot-prx-series-ld-vanilla-block' %}
+  {% when 'Panda Watch Pouches LD Vanilla' %}
+    {% render 'ecom-panda-watch-pouches-ld-block' %}
+  {% when 'NT 8 GT LD Vanilla' %}
+    {% render 'ecom-nt-8-gt-ld-vanilla-block' %}
+
+  {% else %}
+    {% render 'ecom-default-ld-vanilla-block' %}
+{% endcase %}

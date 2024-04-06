@@ -1,0 +1,6 @@
+{% if product.metafields.custom.long_description != blank %}
+  {% assign ld = product.metafields.custom.long_description %}
+    {{ ld }}
+  {% else %}
+    [ecom-global-block]ecom-default-collections-ld-block[/ecom-global-block]
+{% endif %}

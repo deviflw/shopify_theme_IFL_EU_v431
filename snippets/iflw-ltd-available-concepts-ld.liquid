@@ -1,0 +1,24 @@
+{% case product.handle %}
+  {% when 'tissot-prx-light-green-dial' %}
+    {% render 'ecom-available-concepts-moji-block' %}
+  
+  {% when 'tissot-prx-silver-dial-35mm' %}
+    {% render 'ecom-available-concepts-arctic-sky-block' %}
+  {% render 'ecom-available-concepts-dialicious-block' %}
+
+  {% when 'tissot-prx-powermatic-80' %}
+    {% render 'ecom-available-concepts-interstella-block' %}
+
+  {% when 'tissot-prx-blue-dial-35mm' %}
+    {% render 'ecom-available-concepts-midnight-sk-block' %}
+      {% render 'ecom-available-concepts-spaceman-block' %}
+  
+  {% when 'tissot-prx-powermatic-80-black-dial' %}
+    {% render 'ecom-available-concepts-galaxy-block' %}
+
+    {% when 'citizen-tsuyosa-automatic' %}
+    {% render 'ecom-ac-space-surfer-block' %}
+
+  {% else %}
+        {% render 'ecom-default-ld-vanilla-block' %}
+{% endcase %}

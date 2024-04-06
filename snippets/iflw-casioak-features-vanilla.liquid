@@ -1,0 +1,10 @@
+{% assign iflwwatchtype = product.type %}
+{% case iflwwatchtype %}
+  {% when 'Full Metal CasiOak Watches' %}
+  {% render 'ecom-iflw-casioak-features-bt-block' %}
+  {% when 'Resin Bluetooth CasiOak Watches' %}
+  {% render 'ecom-iflw-casioak-features-bt-block' %}
+    {%- else -%}
+    {% render 'ecom-iflw-casioak-features-block' %}
+  {%- else -%}
+{% endcase %}
