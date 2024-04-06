@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-faq-page": {
+      "type": "ecom-faq-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-faq-page"
+  ]
+}
