@@ -734,7 +734,7 @@
               "tt_hd": "Watches",
               "url": "shopify:\/\/collections\/all-watches",
               "open_link": "_self",
-              "menu": "casioak-watches",
+              "menu": "",
               "col": "4"
             }
           },
@@ -891,7 +891,7 @@
               "tt_hd": "Watch Storage",
               "url": "shopify:\/\/collections\/watch-storage",
               "open_link": "_self",
-              "menu": "watch-storage",
+              "menu": "",
               "col": "3"
             }
           },
@@ -928,7 +928,7 @@
               "tt_hd": "Watch Accessories",
               "url": "shopify:\/\/collections\/watch-accessories",
               "open_link": "_self",
-              "menu": "watch-accessories",
+              "menu": "",
               "col": "3"
             }
           },
@@ -971,7 +971,7 @@
               "tt_hd": "Blog Articles",
               "url": "shopify:\/\/blogs\/celebrities",
               "open_link": "_self",
-              "menu": "blog",
+              "menu": "",
               "col": "4"
             }
           },
@@ -1078,7 +1078,7 @@
               "title": "Watches",
               "url": "shopify:\/\/collections\/all-watches",
               "open_link": "_self",
-              "menu": "casioak-watches",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -1091,7 +1091,7 @@
               "title": "Art Gallery",
               "url": "shopify:\/\/collections\/art-gallery",
               "open_link": "_self",
-              "menu": "art-gallery",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -1104,7 +1104,7 @@
               "title": "Watch Storage",
               "url": "shopify:\/\/collections\/watch-storage",
               "open_link": "_self",
-              "menu": "watch-storage",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -1117,7 +1117,7 @@
               "title": "Watch Winders",
               "url": "shopify:\/\/collections\/watch-winders",
               "open_link": "_self",
-              "menu": "watch-winders",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -1130,7 +1130,7 @@
               "title": "Watch Stands",
               "url": "shopify:\/\/collections\/watch-stands",
               "open_link": "_self",
-              "menu": "watch-stands-1",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -1169,7 +1169,7 @@
               "title": "Blog",
               "url": "shopify:\/\/blogs\/celebrities",
               "open_link": "_self",
-              "menu": "blog",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
