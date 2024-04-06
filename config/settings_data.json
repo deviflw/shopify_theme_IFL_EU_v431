@@ -435,6 +435,31 @@
       },
       "header-inline": {
         "type": "header-inline",
+        "blocks": {
+          "mega_tjN8q8": {
+            "type": "mega",
+            "settings": {
+              "title": "WATCHES",
+              "url": "shopify:\/\/collections\/all-watches",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "#00BADB",
+              "pos_sub": "bottom",
+              "wid": "cus",
+              "cus_wid": 1100,
+              "id": 1,
+              "enable_packery": true,
+              "r_s_h_item": "20",
+              "r_s_v_item": "30"
+            }
+          }
+        },
+        "block_order": [
+          "mega_tjN8q8"
+        ],
         "settings": {
           "layout": "logo_left",
           "full_header": true,
