@@ -397,48 +397,8 @@
       },
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "link": "",
-              "content": "<p>Today deal sale off <strong>70%<\/strong>. End in <strong>[countdown]<\/strong>. Hurry Up [icon_arrow]<\/p>",
-              "adding_border": false,
-              "countdown": "2023\/12\/26",
-              "txt_day": "days",
-              "dayx": 0
-            }
-          },
-          "announcement-bar-1": {
-            "type": "announcement",
-            "settings": {
-              "link": "",
-              "content": "<p>Today deal sale off <strong>70%<\/strong>. End in <strong>[countdown]<\/strong>. Hurry Up [icon_arrow]<\/p>",
-              "adding_border": false,
-              "countdown": "2023\/12\/26",
-              "txt_day": "days",
-              "dayx": 0
-            }
-          },
-          "announcement-bar-2": {
-            "type": "announcement",
-            "settings": {
-              "link": "",
-              "content": "<p>Today deal sale off <strong>70%<\/strong>. End in <strong>[countdown]<\/strong>. Hurry Up [icon_arrow]<\/p>",
-              "adding_border": false,
-              "countdown": "2023\/12\/26",
-              "txt_day": "days",
-              "dayx": 0
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0",
-          "announcement-bar-1",
-          "announcement-bar-2"
-        ],
         "settings": {
-          "show_announcement": true,
+          "show_announcement": false,
           "effect": "1",
           "au_time": 3.5,
           "height": 45,
