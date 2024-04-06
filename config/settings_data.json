@@ -2262,6 +2262,40 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "6279071938380501511": {
+        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6588702529468458379": {
+        "type": "shopify:\/\/apps\/ecomposer-builder\/blocks\/app-embed\/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9375319903025652991": {
+        "type": "shopify:\/\/apps\/flash-search-filter-search\/blocks\/js-embed\/73188222-8264-4803-bb3f-c9e181fa7d08",
+        "disabled": false,
+        "settings": {
+          "collection_metafields": "",
+          "searchbox_css_selector": "form[action$=\"\/search\"] input[name=\"q\"]"
+        }
+      },
+      "16682838546324092737": {
+        "type": "shopify:\/\/apps\/flash-search-filter-search\/blocks\/css-embed\/73188222-8264-4803-bb3f-c9e181fa7d08",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   }
 }
