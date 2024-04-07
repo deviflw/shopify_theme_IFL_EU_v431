@@ -119,10 +119,16 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "ecom_cloks_atlantis_homepage_banner_section_rrVPQp": {
+      "type": "ecom-cloks-atlantis-homepage-banner-section",
+      "settings": {
+      }
     }
   },
   "order": [
     "164620932069107a3a",
-    "featured_collection_8q89GG"
+    "featured_collection_8q89GG",
+    "ecom_cloks_atlantis_homepage_banner_section_rrVPQp"
   ]
 }
