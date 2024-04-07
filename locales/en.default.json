@@ -757,6 +757,10 @@
     "ecom-privacy-policy-page": {
       "headingtext_3lqi20a5alr_html": "<div>Privacy Policy<br><\/div>",
       "headingtext_xypaihcqrwn_html": "Protecting Your Personal Information"
+    },
+    "ecom-shipping-policy-page": {
+      "headingtext_5bunpu6nyrx_html": "<div>Shipping Policy<br><\/div>",
+      "headingtext_f8hbosnwec_html": "Global Delivery with a Conscience"
     }
   },
   "customer": {
