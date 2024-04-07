@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-bespoke-watches-page": {
+      "type": "ecom-bespoke-watches-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-bespoke-watches-page"
+  ]
+}
