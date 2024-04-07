@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-thank-you-bespoke-inquiry-page": {
+      "type": "ecom-thank-you-bespoke-inquiry-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-thank-you-bespoke-inquiry-page"
+  ]
+}
