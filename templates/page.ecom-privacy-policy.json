@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-privacy-policy-page": {
+      "type": "ecom-privacy-policy-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-privacy-policy-page"
+  ]
+}
