@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-cookie-policy-page": {
+      "type": "ecom-cookie-policy-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-cookie-policy-page"
+  ]
+}
