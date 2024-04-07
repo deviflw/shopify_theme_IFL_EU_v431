@@ -904,5 +904,29 @@
     "banner_content_uy62p5nsd6_html": "<br>",
     "headingtext_94hsv4zbp7a_html": "<div>From First Glance to Lasting Impression.<br><\/div>",
     "headingtext_crceu4foqf_html": "Customized Hand-Painted Watches and Bespoke Timekeeper Extras. Discover with Us."
+  },
+  "ecom-ltd-latest-block": {
+    "product_option_swatch_7mkfu8fa6l2_html": "Color",
+    "view_more_text_7mkfu8fa6l2_html": "View More",
+    "add_to_cart_7mkfu8fa6l2_html": "Add To Cart",
+    "product_unavailable_7mkfu8fa6l2_html": "Unavailable",
+    "product_soldout_7mkfu8fa6l2_html": "outstock",
+    "added_cart_text_7mkfu8fa6l2_html": "Added to cart",
+    "added_cart_message_7mkfu8fa6l2_html": "Added to cart",
+    "pre_order_7mkfu8fa6l2_html": "Pre order",
+    "quick_shop_text_7mkfu8fa6l2_html": "Quick Shop",
+    "sold_text_7mkfu8fa6l2_html": "Sold Out",
+    "sale_text_7mkfu8fa6l2_html": "Sale",
+    "sale_badge_7mkfu8fa6l2_html": "-{{sale}}%",
+    "countdown_title_7mkfu8fa6l2_html": "Hurry up! The sale will end on",
+    "no_product_item_7mkfu8fa6l2_html": "There are no product yet!",
+    "headingtext_inn1nypnfm_html": "<div>Stay Ahead of Time<br><\/div>",
+    "headingtext_u9v2zfq9ru_html": "<b>Captivated by a Design? <\/b>Join the waitlist to ensure you're notified when your favorite watch is available again.",
+    "text_week_7mkfu8fa6l2_html": "[%-W] week%!W",
+    "text_day_7mkfu8fa6l2_html": "[%-d] day%!D",
+    "text_hour_7mkfu8fa6l2_html": "[%-H] hr%!H",
+    "text_minute_7mkfu8fa6l2_html": "[%-M] min%!M",
+    "text_second_7mkfu8fa6l2_html": "[%-S] sec%!S",
+    "sale_7mkfu8fa6l2_html": "-{{sale}}%"
   }
 }
