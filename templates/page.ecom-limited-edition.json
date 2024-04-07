@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-limited-edition-page": {
+      "type": "ecom-limited-edition-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-limited-edition-page"
+  ]
+}
