@@ -999,5 +999,15 @@
     "item_title_0_3yivbwkozl8_html": "Product description",
     "item_title_1_3yivbwkozl8_html": "Specification",
     "item_title_2_3yivbwkozl8_html": "Shipping & Returns"
+  },
+  "ecom-iflw-casioak-features-block": {
+    "ecomiconlisttitle0_ecomx5rzxwzuaw8_x5rzxwzuaw8_html": "Date\/Time",
+    "ecomiconlistdes_0_ecomx5rzxwzuaw8_x5rzxwzuaw8_html": "<div><\/div><b>Format:<\/b> 12\/24-hour<div><b>Analog Timekeeping:<\/b> 2 hands (hour, minute), 1 hand (day)<\/div><div><b>Digital Timekeeping:<\/b> Hour, minute, second, pm, month, date<\/div><div><b>World Time:<\/b> 31 time zones (48 cities + coordinated universal time), daylight saving on\/off<\/div><div><b>Alarm:<\/b> 5 daily alarms<\/div><div><b>Time Signal:<\/b> Hourly time signal<\/div><div><b>Calendar: <\/b>Full auto-calendar (to year 2099)\r\n<div><\/div><\/div>",
+    "ecomiconlisttitle1_ecomx5rzxwzuaw8_x5rzxwzuaw8_html": "Countdown Timer",
+    "ecomiconlistdes_1_ecomx5rzxwzuaw8_x5rzxwzuaw8_html": "<div><\/div><b>Measuring Unit:<\/b> 1 second<div><b>Range:<\/b> 24 hours<\/div><div><b>Start Time Setting Range:<\/b> 1 second to 24 hours (1-second increments, 1-minute increments, and 1-hour increments)\r\n<div><\/div><\/div>",
+    "ecomiconlisttitle2_ecomx5rzxwzuaw8_x5rzxwzuaw8_html": "Stopwatch",
+    "ecomiconlistdes_2_ecomx5rzxwzuaw8_x5rzxwzuaw8_html": "<div><\/div><b>Capacity:<\/b> 1\/100-second<div><b>Measuring Capacity:<\/b> 00'00''00~59'59''99 (for the first 60 minutes), 1:00'00~23:59'59 (after 60 minutes)<\/div><div><b>Measuring Unit:<\/b> 1\/100 second (for the first 60 minutes), 1 second (after 60 minutes)<\/div><div><b>Measuring Modes:<\/b> Elapsed time, split time, 1st-2nd place times\r\n<div><\/div><\/div>",
+    "ecomiconlisttitle3_ecomx5rzxwzuaw8_x5rzxwzuaw8_html": "Light",
+    "ecomiconlistdes_3_ecomx5rzxwzuaw8_x5rzxwzuaw8_html": "<div><\/div><b>Type:<\/b> Double LED light<div><b>LED Light for the Face:<\/b> Super illuminator, selectable illumination duration (1.5 seconds or 3 seconds), afterglow<\/div><div><b>LED Backlight for the Digital Display:<\/b> Super illuminator, selectable illumination duration (1.5 seconds or 3 seconds), afterglow<\/div><div><b>Color:<\/b> White\r\n<div>\n<div><\/div><\/div><\/div>"
   }
 }
