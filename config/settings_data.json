@@ -523,34 +523,13 @@
               "lb": "",
               "lb_cl": ""
             }
-          },
-          "mega_hmPGMn": {
-            "type": "mega",
-            "settings": {
-              "title": "BLOG",
-              "url": "shopify:\/\/blogs\/celebrities",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 1200,
-              "id": 4,
-              "enable_packery": false,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
           }
         },
         "block_order": [
           "mega_UmYR4B",
           "mega_Ey7f4e",
           "mega_4DPYEN",
-          "base_HfG3YC",
-          "mega_hmPGMn"
+          "base_HfG3YC"
         ],
         "settings": {
           "layout": "logo_left",
@@ -734,7 +713,7 @@
               "tt_hd": "Watches",
               "url": "shopify:\/\/collections\/all-watches",
               "open_link": "_self",
-              "menu": "",
+              "menu": "watches",
               "col": "4"
             }
           },
@@ -891,7 +870,7 @@
               "tt_hd": "Watch Storage",
               "url": "shopify:\/\/collections\/watch-storage",
               "open_link": "_self",
-              "menu": "",
+              "menu": "watch-storage",
               "col": "3"
             }
           },
@@ -928,7 +907,7 @@
               "tt_hd": "Watch Accessories",
               "url": "shopify:\/\/collections\/watch-accessories",
               "open_link": "_self",
-              "menu": "",
+              "menu": "watch-accessories",
               "col": "3"
             }
           },
@@ -958,92 +937,6 @@
               "collection_link": "",
               "col": "3"
             }
-          },
-          "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f": {
-            "type": "mega",
-            "settings": {
-              "id": 4
-            }
-          },
-          "link_eBJaj7": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Blog Articles",
-              "url": "shopify:\/\/blogs\/celebrities",
-              "open_link": "_self",
-              "menu": "",
-              "col": "4"
-            }
-          },
-          "blogs_dRDXJU": {
-            "type": "blogs",
-            "settings": {
-              "blog": "celebrities",
-              "post_des": "1",
-              "show_cate": false,
-              "show_tags": false,
-              "show_cnt": false,
-              "show_au": true,
-              "show_dt": true,
-              "show_cm": false,
-              "show_rm": false,
-              "show_irm": false,
-              "date": "date",
-              "content_align": "start",
-              "limit": 1,
-              "img_effect": "none",
-              "b_effect": "none",
-              "image_ratio": "ratioadapt",
-              "image_size": "cover",
-              "image_position": "8",
-              "col_dk": "1",
-              "space_h_item": "30",
-              "space_v_item": "30",
-              "layout_des": "2",
-              "nav_btn": false,
-              "btn_vi": "hover",
-              "btn_owl": "default",
-              "btn_shape": "none",
-              "btn_cl": "dark",
-              "btn_size": "small",
-              "btn_hidden_mobile": true,
-              "col": "4"
-            }
-          },
-          "blogs_LN8xaa": {
-            "type": "blogs",
-            "settings": {
-              "blog": "news",
-              "post_des": "1",
-              "show_cate": false,
-              "show_tags": false,
-              "show_cnt": false,
-              "show_au": true,
-              "show_dt": true,
-              "show_cm": false,
-              "show_rm": false,
-              "show_irm": false,
-              "date": "date",
-              "content_align": "start",
-              "limit": 1,
-              "img_effect": "none",
-              "b_effect": "none",
-              "image_ratio": "ratioadapt",
-              "image_size": "cover",
-              "image_position": "8",
-              "col_dk": "1",
-              "space_h_item": "30",
-              "space_v_item": "30",
-              "layout_des": "2",
-              "nav_btn": false,
-              "btn_vi": "hover",
-              "btn_owl": "default",
-              "btn_shape": "none",
-              "btn_cl": "dark",
-              "btn_size": "small",
-              "btn_hidden_mobile": true,
-              "col": "4"
-            }
           }
         },
         "block_order": [
@@ -1059,11 +952,7 @@
           "link_gcGnDV",
           "cat_CQBNat",
           "link_AwgjgY",
-          "cat_JKMGfR",
-          "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f",
-          "link_eBJaj7",
-          "blogs_dRDXJU",
-          "blogs_LN8xaa"
+          "cat_JKMGfR"
         ],
         "settings": {
           "bg": "#ffffff"
@@ -1856,6 +1745,11 @@
       },
       "extras": {
         "type": "extras",
+        "settings": {
+        }
+      },
+      "ecom-iflw-no-vanilla-footer-footer": {
+        "type": "ecom-iflw-no-vanilla-footer-footer",
         "settings": {
         }
       }
