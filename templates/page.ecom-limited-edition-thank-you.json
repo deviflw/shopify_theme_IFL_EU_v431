@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-limited-edition-thank-you-page": {
+      "type": "ecom-limited-edition-thank-you-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-limited-edition-thank-you-page"
+  ]
+}
