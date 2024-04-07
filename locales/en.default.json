@@ -928,5 +928,26 @@
     "text_minute_7mkfu8fa6l2_html": "[%-M] min%!M",
     "text_second_7mkfu8fa6l2_html": "[%-S] sec%!S",
     "sale_7mkfu8fa6l2_html": "-{{sale}}%"
+  },
+  "ecom-ifl-product-top-vanilla-block": {
+    "breadcrumbs_home_hzi5zxatggs_html": "Home",
+    "view_more_text_g84545sgqx_html": "View more",
+    "view_less_text_g84545sgqx_html": "View less",
+    "product_single_sale_text_hqfnmptkug_html": "Sale",
+    "product_single_sold_text_hqfnmptkug_html": "Sold out",
+    "instock_text_24yfl7nucpo_html": "In stock. Ready to ship.",
+    "outstock_text_24yfl7nucpo_html": "Sold out.",
+    "inventory_text_24yfl7nucpo_html": "{quantity} in stock",
+    "preorder_text_24yfl7nucpo_html": "Pre-order now.",
+    "add_to_cart_ht485vjvufu_html": "Add to cart",
+    "pre_order_ht485vjvufu_html": "Pre-order",
+    "product_unavailable_ht485vjvufu_html": "Unavailable",
+    "out_stock_ht485vjvufu_html": "Out stock",
+    "added_cart_text_ht485vjvufu_html": "Added to cart",
+    "added_cart_message_ht485vjvufu_html": "Added to cart",
+    "item_title_0_3yivbwkozl8_html": "Product description",
+    "item_title_1_3yivbwkozl8_html": "Specification",
+    "item_title_2_3yivbwkozl8_html": "Shipping & Returns",
+    "textcontent_nbl86qdn89_html": "For additional insights into how we handle the shipping process and our commitment to a seamless delivery experience, our <a href=\"\/pages\/shipping-policy\">Shipping Policy<\/a> offers a comprehensive overview. "
   }
 }
