@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-ifl-collection-vanilla-collection": {
+      "type": "ecom-ifl-collection-vanilla-collection",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-ifl-collection-vanilla-collection"
+  ]
+}
