@@ -5,26 +5,9 @@
       "type": "ecom-ifl-collection-vanilla-collection",
       "settings": {
       }
-    },
-    "1712688452fe400bd2": {
-      "type": "apps",
-      "blocks": {
-        "flash_search_filter_search_search_results_block_HnUMtH": {
-          "type": "shopify:\/\/apps\/flash-search-filter-search\/blocks\/search-results-block\/73188222-8264-4803-bb3f-c9e181fa7d08",
-          "disabled": true,
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "flash_search_filter_search_search_results_block_HnUMtH"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
-    "ecom-ifl-collection-vanilla-collection",
-    "1712688452fe400bd2"
+    "ecom-ifl-collection-vanilla-collection"
   ]
 }
