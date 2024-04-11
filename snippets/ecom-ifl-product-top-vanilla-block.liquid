@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2024-04-11 11:12:09
+ At 2024-04-11 11:47:04
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -437,11 +437,9 @@
  <div class="ecom-product-single__price--badges">
  {%- assign savings = target.compare_at_price | minus: target.price | times: 100.0 | divided_by: target.compare_at_price | round -%}
  
- {%- if target.compare_at_price != nil and target.compare_at_price > target.price and target.available == true -%}
- <span class="ecom-product-single__price--badges-sale" data-text=" {{ 'ecom-ifl-product-top-vanilla-block.product_single_sale_text_vll71ycazt_html' | t }}" data-sale="{{savings}}" data-type="percent">
+ <span class="ecom-product-single__price--badges-sale" data-text=" {{ 'ecom-ifl-product-top-vanilla-block.product_single_sale_text_vll71ycazt_html' | t }}" data-sale="{{savings}}" data-type="percent" style="{%- unless target.compare_at_price == nil or target.compare_at_price <= target.price or target.available != true -%} display: none;{%endunless%}">
  {{ 'ecom-ifl-product-top-vanilla-block.product_single_sale_text_vll71ycazt_html' | t }}
  </span>
- {% endif %}
  <span class="ecom-product-single__price--badges-sold-out" {% if target.available %} style="display:none" {% endif %}>
  {{ 'ecom-ifl-product-top-vanilla-block.product_single_sold_text_vll71ycazt_html' | t }}
  </span>
