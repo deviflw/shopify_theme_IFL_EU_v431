@@ -1231,6 +1231,8 @@
       "outstock_text_4539dse3y1_html": "Sold out.",
       "inventory_text_4539dse3y1_html": "{quantity} in stock",
       "preorder_text_4539dse3y1_html": "Pre-order now.",
+      "view_more_text_f6v6ni3kpt_html": "View more",
+      "view_less_text_f6v6ni3kpt_html": "View less",
       "add_to_cart_qcmml37nh3_html": "Add to cart",
       "pre_order_qcmml37nh3_html": "Pre-order",
       "product_unavailable_qcmml37nh3_html": "Unavailable",
@@ -1240,8 +1242,6 @@
       "item_title_0_3yivbwkozl8_html": "Product description",
       "item_title_1_3yivbwkozl8_html": "Specification",
       "item_title_2_3yivbwkozl8_html": "Shipping & Returns",
-      "view_more_text_f6v6ni3kpt_html": "View more",
-      "view_less_text_f6v6ni3kpt_html": "View less",
       "textcontent_1sx1bc6ttr2i_html": "For additional insights into how we handle the shipping process and our commitment to a seamless delivery experience, our <a href=\"\/pages\/shipping-policy\">Shipping Policy<\/a> offers a comprehensive overview. "
     }
   },
