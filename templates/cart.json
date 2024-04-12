@@ -87,12 +87,12 @@
         "9f0f4b67-92cb-4f7e-ae91-e921e23ed3ff"
       ],
       "settings": {
-        "enable_calc_ship": true,
+        "enable_calc_ship": false,
         "enable_note": true,
-        "enable_rates": true,
+        "enable_rates": false,
         "enable_discount": true,
-        "enable_gift_wrap": true,
-        "ship_df_country": "United States"
+        "enable_gift_wrap": false,
+        "ship_df_country": "United Arab Emirates"
       }
     },
     "recently-viewed-products": {
