@@ -1026,45 +1026,6 @@
               "icon": "las la-chair"
             }
           },
-          "menu_Xzkqgm": {
-            "type": "menu",
-            "settings": {
-              "title": "Watch Straps",
-              "url": "shopify:\/\/collections\/watch-straps",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "",
-              "icons_op": "0",
-              "icon": "las la-chair"
-            }
-          },
-          "menu_zpnVnn": {
-            "type": "menu",
-            "settings": {
-              "title": "Watch Cufflinks",
-              "url": "shopify:\/\/collections\/watch-cufflinks",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "",
-              "icons_op": "0",
-              "icon": "las la-chair"
-            }
-          },
-          "menu_cy4Ut6": {
-            "type": "menu",
-            "settings": {
-              "title": "Blog",
-              "url": "shopify:\/\/blogs\/celebrities",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "",
-              "icons_op": "0",
-              "icon": "las la-chair"
-            }
-          },
           "menu_KKx3GF": {
             "type": "menu",
             "settings": {
@@ -1126,9 +1087,6 @@
           "menu_XWMpYx",
           "menu_qqTpmb",
           "menu_xUyGrU",
-          "menu_Xzkqgm",
-          "menu_zpnVnn",
-          "menu_cy4Ut6",
           "menu_KKx3GF",
           "menu_afnDFL",
           "menu_LDHzwF",
