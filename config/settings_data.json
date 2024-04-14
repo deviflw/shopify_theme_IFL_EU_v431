@@ -721,7 +721,7 @@
             "type": "cat",
             "settings": {
               "collection": "casioak",
-              "collection_title": "",
+              "collection_title": "CasiOak Wrist Art",
               "collection_subtitle": "Products",
               "collection_des": "1",
               "title_cl": "{{ shop.brand.colors.secondary[0].foreground }}",
@@ -748,7 +748,7 @@
             "type": "cat",
             "settings": {
               "collection": "limited-edition",
-              "collection_title": "",
+              "collection_title": "Limited Edition",
               "collection_subtitle": "Products",
               "collection_des": "1",
               "title_cl": "{{ shop.brand.colors.secondary[0].foreground }}",
