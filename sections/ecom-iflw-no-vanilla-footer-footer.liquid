@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2024-04-17 11:29:02
+ At 2024-04-17 14:38:16
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -494,7 +494,7 @@ Copyright {{ 'now' | date: "%Y" }} © IFLW. All rights reserved.
 </div></div></div> </div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div> <div class="ecom-column ecom-core core__column--last ecom-4j0xuyrpjn"><div class="core__column--wrapper" style=""><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-bufocucaiwg" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__payment-method" deep="2">{%- if cart.item_count > 0 or request.page_type != 'cart' -%}<div class="ecom-product-single__playment-method-wrapper"><div class="ecom-product-single-payment-method-container"><div><ul class="ecom-product-single__payment-method-list" role="list" data-ecom-placeholder="">
  
  {%- capture arrPayment -%}
- visa,master,maestro,american_express,shopify_pay,apple_pay,google_pay,amazon_payments,unionpay
+ visa,master,american_express,shopify_pay,apple_pay
  {%- endcapture -%}
  {% assign arrPayment = arrPayment | split: ',' %}
  
