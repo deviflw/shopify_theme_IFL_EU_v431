@@ -1382,9 +1382,11 @@
           "heading-template-0"
         ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/shopping-cart-head.jpg",
+          "heading_fullwidth": true,
+          "image": "shopify:\/\/shop_images\/Iflw-collection_banner_default.jpg",
+          "use_specify_image": false,
           "parallax": false,
-          "color": "#000000",
+          "color": "{{ shop.brand.colors.primary[0].background }}",
           "overlay": 54,
           "padding": 50,
           "paddingmb": 50,
@@ -1411,8 +1413,12 @@
           "main-wishlist-0"
         ],
         "settings": {
+          "product_list": [
+
+          ],
           "product_des": "1",
           "show_vendor": false,
+          "use_cdt": false,
           "image_ratio": "rationt",
           "image_size": "cover",
           "image_position": "8",
@@ -1441,6 +1447,8 @@
           "cl_bg_gradient": "",
           "mg": ",,50px,",
           "pd": "",
+          "mg_tb": "",
+          "pd_tb": "",
           "mg_mb": ",,30px,",
           "pd_mb": ""
         }
