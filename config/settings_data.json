@@ -1358,6 +1358,7 @@
         "blocks": {
           "heading-template-0": {
             "type": "1",
+            "disabled": true,
             "settings": {
               "heading": "",
               "fontf": "inherit",
