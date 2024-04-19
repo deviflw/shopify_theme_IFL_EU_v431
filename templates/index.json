@@ -1,7 +1,7 @@
 {
   "sections": {
-    "ecom_cloks_atlantis_homepage_banner_section_rrVPQp": {
-      "type": "ecom-cloks-atlantis-homepage-banner-section",
+    "ecom_tsuyosa_galaxy_hp_banner_section_9aLFEU": {
+      "type": "ecom-tsuyosa-galaxy-hp-banner-section",
       "settings": {
       }
     },
@@ -12,7 +12,7 @@
     }
   },
   "order": [
-    "ecom_cloks_atlantis_homepage_banner_section_rrVPQp",
+    "ecom_tsuyosa_galaxy_hp_banner_section_9aLFEU",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
