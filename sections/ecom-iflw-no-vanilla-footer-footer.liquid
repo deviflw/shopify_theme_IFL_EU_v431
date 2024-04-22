@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2024-04-18 10:20:52
+ At 2024-04-22 12:15:41
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -495,7 +495,7 @@ Copyright {{ 'now' | date: "%Y" }} © IFLW. All rights reserved.
 </div></div></div> </div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div> <div class="ecom-column ecom-core ecom-t6nf9i2d64"><div class="core__column--wrapper" style=""><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-h7zd4of18en" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2"><selector-root data-id=FL209064 id="FL209064"></selector-root></div></div> </div></div></div><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div></div> <div class="ecom-column ecom-core core__column--last ecom-pmqqctzga8d"><div class="core__column--wrapper" style=""><div class="core__blocks" index="2"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-imtv3qw4bb" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__payment-method" deep="2">{%- if cart.item_count > 0 or request.page_type != 'cart' -%}<div class="ecom-product-single__playment-method-wrapper"><div class="ecom-product-single-payment-method-container"><div><ul class="ecom-product-single__payment-method-list" role="list" data-ecom-placeholder="">
  
  {%- capture arrPayment -%}
- visa,master,american_express,apple_pay
+ visa,master,american_express,apple_pay,paypal
  {%- endcapture -%}
  {% assign arrPayment = arrPayment | split: ',' %}
  
