@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2024-04-23 18:40:18
+ At 2024-04-23 18:40:45
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -71,6 +71,13 @@
  {% assign collection = c %}
  {%- break -%}
  {% endfor %}
+ {% endif %}
+ 
+ {% if product.vendor and product.vendor != blank and products == blank or products.size < 2%}
+ {% paginate collections.all.products by 1000 %}
+ {% assign products = collections.all.products | where: 'vendor', product.vendor | where: "available" %}
+ {% endpaginate %}
+ {% assign ecom_related_type = 'ecom-product-related-shopify-vendor' %}
  {% endif %}
  
  {% endif %}
