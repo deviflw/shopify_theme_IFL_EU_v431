@@ -713,7 +713,7 @@
               "tt_hd": "Watches",
               "url": "shopify:\/\/collections\/all-watches",
               "open_link": "_self",
-              "menu": "watches",
+              "menu": "",
               "col": "4"
             }
           },
@@ -870,7 +870,7 @@
               "tt_hd": "Watch Storage",
               "url": "shopify:\/\/collections\/watch-storage",
               "open_link": "_self",
-              "menu": "watch-storage",
+              "menu": "",
               "col": "3"
             }
           },
@@ -880,7 +880,6 @@
               "collection": "camo-collection",
               "collection_title": "Camo",
               "collection_subtitle": "Products",
-              "image": "shopify:\/\/shop_images\/iflw_azure-blue-Camo-Watch-Roll-2x_LD1.jpg",
               "collection_des": "1",
               "title_cl": "{{ shop.brand.colors.secondary[0].foreground }}",
               "title_cl_hover": "{{ shop.brand.colors.secondary[0].background }}",
@@ -908,7 +907,7 @@
               "tt_hd": "Watch Accessories",
               "url": "shopify:\/\/collections\/watch-accessories",
               "open_link": "_self",
-              "menu": "watch-accessories",
+              "menu": "",
               "col": "3"
             }
           },
@@ -918,7 +917,6 @@
               "collection": "watch-stands",
               "collection_title": "Robotoys",
               "collection_subtitle": "Products",
-              "image": "shopify:\/\/shop_images\/iflw_robots_valentine_banner-mail.jpg",
               "collection_des": "1",
               "title_cl": "{{ shop.brand.colors.secondary[0].foreground }}",
               "title_cl_hover": "{{ shop.brand.colors.secondary[0].background }}",
@@ -969,7 +967,7 @@
               "title": "Watches",
               "url": "shopify:\/\/collections\/all-watches",
               "open_link": "_self",
-              "menu": "watches",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -982,7 +980,7 @@
               "title": "Art Gallery",
               "url": "shopify:\/\/collections\/art-gallery",
               "open_link": "_self",
-              "menu": "art-gallery",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -995,7 +993,7 @@
               "title": "Watch Storage",
               "url": "shopify:\/\/collections\/watch-storage",
               "open_link": "_self",
-              "menu": "watch-storage",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -1060,7 +1058,7 @@
               "title": "Need Help?",
               "url": "shopify:\/\/pages\/contact",
               "open_link": "_self",
-              "menu": "help",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
@@ -1733,34 +1731,8 @@
         "settings": {
         }
       },
-      "6279071938380501511": {
-        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "9375319903025652991": {
-        "type": "shopify:\/\/apps\/flash-search-filter-search\/blocks\/js-embed\/73188222-8264-4803-bb3f-c9e181fa7d08",
-        "disabled": false,
-        "settings": {
-          "collection_metafields": "",
-          "searchbox_css_selector": "form[action$=\"\/search\"] input[name=\"q\"]"
-        }
-      },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "16682838546324092737": {
-        "type": "shopify:\/\/apps\/flash-search-filter-search\/blocks\/css-embed\/73188222-8264-4803-bb3f-c9e181fa7d08",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "18128612654622612671": {
-        "type": "shopify:\/\/apps\/selectors\/blocks\/app-embed\/a005a4a7-4aa2-4155-9c2b-0ab41acbf99c",
         "disabled": false,
         "settings": {
         }
