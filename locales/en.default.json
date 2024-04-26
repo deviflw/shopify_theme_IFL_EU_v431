@@ -1629,14 +1629,14 @@
     "ecomiconlistdes_3_ecomcblls9p78ge_cblls9p78ge_html": "Your Questions, Our Priority. We're Here for You."
   },
   "ecom-ifl-product-top-vanilla-noatc-block": {
-    "breadcrumbs_home_dtbxuey3mv_html": "Home",
-    "view_more_text_fl5cux5ysj8_html": "View more",
-    "view_less_text_fl5cux5ysj8_html": "View less",
-    "product_single_sale_text_tbxuj8cuu3_html": "Sale",
-    "product_single_sold_text_tbxuj8cuu3_html": "Sold out",
+    "breadcrumbs_home_glp409th7z8_html": "Home",
+    "product_single_sale_text_6wzagomshp8_html": "Sale",
+    "product_single_sold_text_6wzagomshp8_html": "Sold out",
     "item_title_0_3yivbwkozl8_html": "Product description",
     "item_title_1_3yivbwkozl8_html": "Specification",
-    "item_title_2_3yivbwkozl8_html": "Shipping & Returns"
+    "item_title_2_3yivbwkozl8_html": "Shipping & Returns",
+    "view_more_text_b8sq394nkxt_html": "View more",
+    "view_less_text_b8sq394nkxt_html": "View less"
   },
   "ecom-iflw-casioak-features-block": {
     "ecomiconlisttitle0_ecombqc0sfcxdoh_bqc0sfcxdoh_html": "Date\/Time",
