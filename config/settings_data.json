@@ -1759,6 +1759,12 @@
           "collection_metafields": "",
           "searchbox_css_selector": "form[action$=\"\/search\"] input[name=\"q\"]"
         }
+      },
+      "6279071938380501511": {
+        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   }
