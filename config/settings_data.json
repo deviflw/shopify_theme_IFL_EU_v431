@@ -1745,6 +1745,20 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "16682838546324092737": {
+        "type": "shopify:\/\/apps\/flash-search-filter-search\/blocks\/css-embed\/73188222-8264-4803-bb3f-c9e181fa7d08",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9375319903025652991": {
+        "type": "shopify:\/\/apps\/flash-search-filter-search\/blocks\/js-embed\/73188222-8264-4803-bb3f-c9e181fa7d08",
+        "disabled": false,
+        "settings": {
+          "collection_metafields": "",
+          "searchbox_css_selector": "form[action$=\"\/search\"] input[name=\"q\"]"
+        }
       }
     }
   }
