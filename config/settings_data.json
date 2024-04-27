@@ -967,7 +967,7 @@
               "title": "Watches",
               "url": "shopify:\/\/collections\/all-watches",
               "open_link": "_self",
-              "menu": "",
+              "menu": "watches",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -980,7 +980,7 @@
               "title": "Art Gallery",
               "url": "shopify:\/\/collections\/art-gallery",
               "open_link": "_self",
-              "menu": "",
+              "menu": "art-gallery",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -993,7 +993,7 @@
               "title": "Watch Storage",
               "url": "shopify:\/\/collections\/watch-storage",
               "open_link": "_self",
-              "menu": "",
+              "menu": "watch-storage",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -1058,7 +1058,7 @@
               "title": "Need Help?",
               "url": "shopify:\/\/pages\/contact",
               "open_link": "_self",
-              "menu": "",
+              "menu": "help",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
@@ -1079,6 +1079,14 @@
             "type": "acc",
             "settings": {
             }
+          },
+          "help_G8Gwkw": {
+            "type": "help",
+            "disabled": true,
+            "settings": {
+              "title": "Need help?",
+              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:kalles@domain.com\">kalles@domain.com<\/a>"
+            }
           }
         },
         "block_order": [
@@ -1092,7 +1100,8 @@
           "menu_LDHzwF",
           "mb_nav-4",
           "mb_nav-5",
-          "mb_nav-6"
+          "mb_nav-6",
+          "help_G8Gwkw"
         ],
         "settings": {
         }
