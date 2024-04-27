@@ -110,14 +110,14 @@
     "17126885602b3fc415": {
       "type": "apps",
       "blocks": {
-        "flash_search_filter_search_search_results_block_mgrTrt": {
+        "flash_search_filter_search_search_results_block_8QhkHQ": {
           "type": "shopify:\/\/apps\/flash-search-filter-search\/blocks\/search-results-block\/73188222-8264-4803-bb3f-c9e181fa7d08",
           "settings": {
           }
         }
       },
       "block_order": [
-        "flash_search_filter_search_search_results_block_mgrTrt"
+        "flash_search_filter_search_search_results_block_8QhkHQ"
       ],
       "settings": {
       }
