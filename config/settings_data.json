@@ -713,7 +713,7 @@
               "tt_hd": "Watches",
               "url": "shopify:\/\/collections\/all-watches",
               "open_link": "_self",
-              "menu": "",
+              "menu": "watches",
               "col": "4"
             }
           },
@@ -870,7 +870,7 @@
               "tt_hd": "Watch Storage",
               "url": "shopify:\/\/collections\/watch-storage",
               "open_link": "_self",
-              "menu": "",
+              "menu": "watch-storage",
               "col": "3"
             }
           },
@@ -907,7 +907,7 @@
               "tt_hd": "Watch Accessories",
               "url": "shopify:\/\/collections\/watch-accessories",
               "open_link": "_self",
-              "menu": "",
+              "menu": "watch-accessories",
               "col": "3"
             }
           },
