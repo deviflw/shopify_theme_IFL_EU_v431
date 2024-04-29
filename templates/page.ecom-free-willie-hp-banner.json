@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-free-willie-hp-banner-page": {
+      "type": "ecom-free-willie-hp-banner-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-free-willie-hp-banner-page"
+  ]
+}
