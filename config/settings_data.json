@@ -87,6 +87,7 @@
     "link_conditions": "shopify:\/\/pages\/terms-conditions",
     "use_privacy_policy": true,
     "privacy_policy_link": "shopify:\/\/pages\/privacy-policy",
+    "login_side": false,
     "predictive_search": false,
     "filter_type_search": false,
     "only_search_prs": false,
