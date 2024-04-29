@@ -1,7 +1,7 @@
 {
   "sections": {
-    "ecom_tsuyosa_galaxy_hp_banner_section_9aLFEU": {
-      "type": "ecom-tsuyosa-galaxy-hp-banner-section",
+    "ecom_free_willie_hp_banner_section_4kqTU9": {
+      "type": "ecom-free-willie-hp-banner-section",
       "settings": {
       }
     },
@@ -12,7 +12,7 @@
     }
   },
   "order": [
-    "ecom_tsuyosa_galaxy_hp_banner_section_9aLFEU",
+    "ecom_free_willie_hp_banner_section_4kqTU9",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
