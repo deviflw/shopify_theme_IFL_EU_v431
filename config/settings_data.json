@@ -1085,8 +1085,8 @@
             "type": "help",
             "disabled": true,
             "settings": {
-              "title": "Need help?",
-              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:kalles@domain.com\">kalles@domain.com<\/a>"
+              "title": "Shipping Country & Currency",
+              "text": "<selector-root data-id=\"UY465572\" id=\"UY465572\"><\/selector-root>"
             }
           }
         },
