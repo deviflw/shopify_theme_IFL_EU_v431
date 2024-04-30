@@ -1044,7 +1044,7 @@
             "type": "menu",
             "settings": {
               "title": "Limited Edition",
-              "url": "shopify:\/\/collections\/limited-edition",
+              "url": "shopify:\/\/pages\/limited-edition",
               "open_link": "_self",
               "menu": "",
               "lb": "",
@@ -1083,7 +1083,6 @@
           },
           "help_G8Gwkw": {
             "type": "help",
-            "disabled": true,
             "settings": {
               "title": "Shipping Country & Currency",
               "text": "<selector-root data-id=\"UY465572\" id=\"UY465572\"><\/selector-root>"
