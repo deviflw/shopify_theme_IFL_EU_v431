@@ -1255,6 +1255,49 @@
       "textcontent_kgd0xmffmzj_html": "Limited Edition Concept",
       "headingtext_2eaehacpamr_html": "Free Willie",
       "buttoncontent_tiqlp6hns3_html": "Discover"
+    },
+    "ecom-ajax-cart": {
+      "quantity": {
+        "label": "Quantity",
+        "input_label": "Quantity for         {{ product }}",
+        "increase": "Increase quantity for         {{ product }}",
+        "decrease": "Decrease quantity for         {{ product }}"
+      },
+      "title": "Your cart",
+      "caption": "Cart items",
+      "remove_title": "Remove         {{ title }}",
+      "subtotal": "Subtotal",
+      "new_subtotal": "New subtotal",
+      "note": "Order note",
+      "checkout": "Checkout",
+      "empty": "Your cart is empty",
+      "term": "I agree with the terms and conditions",
+      "cart_error": "There was an error while updating your cart. Please try again.",
+      "cart_quantity_error_html": "You can only add [quantity] of this item to your cart.",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"        {{ link }} \">shipping<\/a> calculated at checkout",
+      "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"        {{ link }} \">Shipping<\/a> calculated at checkout.",
+      "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
+      "unit_price_separator": "per",
+      "view_cart": "View cart",
+      "headings": {
+        "product": "Product",
+        "price": "Price",
+        "total": "Total",
+        "quantity": "Quantity"
+      },
+      "update": "Update",
+      "price": {
+        "from_price_html": "From         {{ price }}",
+        "regular_price": "Regular price",
+        "sale_price": "Sale price",
+        "unit_price": "Unit price"
+      },
+      "continue_shopping": "Continue shopping",
+      "message": {
+        "one": "{{ count }} item in your cart",
+        "other": "{{ count }} items in your cart"
+      }
     }
   },
   "customer": {
