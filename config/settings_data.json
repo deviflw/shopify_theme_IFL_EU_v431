@@ -131,7 +131,7 @@
       "bottom-bar": {
         "type": "bottom-bar",
         "settings": {
-          "hidden_bottombar": false,
+          "hidden_bottombar": true,
           "border_top": false,
           "border_pos": "in",
           "space_h_item": "30",
