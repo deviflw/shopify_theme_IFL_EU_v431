@@ -102,7 +102,7 @@
     "notify_currency": false,
     "hover_currency": false,
     "custom_css_t4s": true,
-    "global_css": ".t4s-mini-search__content {\ndisplay: none !important;\n}\n\n.ecom-modal-box {\noverflow-y: hidden !important;\n}\n\n.t4s-cart_meta_propertyList {\ndisplay: none;\n}",
+    "global_css": ".t4s-mini-search__content {\ndisplay: none !important;\n}\n\n.ecom-modal-box {\noverflow-y: hidden !important;\n}\n\n.t4s-cart_meta_propertyList {\ndisplay: none;\n}\n\n.shopify-policy__title {\n    text-align: left;\n}\n\n.shopify-policy__body ul {\n    list-style-type: disc;\n    margin-left: 20px;\n}\n\n.shopify-policy__body ol {\n    list-style-type: decimal;\n    margin-left: 20px;\n}\n\n.shopify-policy__body ul ul {\n    list-style-type: circle;\n}\n\n.shopify-policy__body p, .shopify-policy__body h2, .shopify-policy__body h3, .shopify-policy__body ul, .shopify-policy__body li {\n    margin-top: 10px;\n    margin-bottom: 10px;\n}",
     "mobile_css": "body select#country_code.locale-selectors__selector[name='country_code'] {\nwidth: 100% !important;\n}\n\ndiv.locale-selectors__container {\nheight: 150px;\n}",
     "t4s_custom_js": false,
     "share_tumblr": true,
