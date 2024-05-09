@@ -1,4 +1,1 @@
-/* Publish by EComposer at 2024-04-26 14:15:18*/
-;try{
- 
-} catch(error){console.error(error);}
+!function(){const e=function(){"use strict";if(window.__ectimmers=window.__ectimmers||{},window.__ectimmers["ecom-sahhnzkj4k"]=window.__ectimmers["ecom-sahhnzkj4k"]||{},!this.$el)return;const e=this.$el,t=e.querySelector(".ecom-text_view-more-btn"),s=e.querySelector(".ecom-text_view-less-btn"),i=e.querySelector(".text-content.ecom-html");!i||(t&&t.addEventListener("click",()=>{i.classList.remove("ecom-text--is-mark"),i.style.maxHeight="",t.style.display="none",s.style.display=""}),s&&s.addEventListener("click",()=>{i.classList.add("ecom-text--is-mark"),i.style.maxHeight="var(--ecom-text-height)",s.style.display="none",t.style.display=""}))};document.querySelectorAll(".ecom-sahhnzkj4k").forEach((function(t){e.call({$el:t,id:"ecom-sahhnzkj4k",settings:{},isLive:!0})}))}();
