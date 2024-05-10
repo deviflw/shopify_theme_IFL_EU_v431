@@ -1,7 +1,7 @@
 {
   "sections": {
-    "ecom_free_willie_hp_banner_section_4kqTU9": {
-      "type": "ecom-free-willie-hp-banner-section",
+    "ecom_timex_q_diver_hp_banner_section_4DLXkk": {
+      "type": "ecom-timex-q-diver-hp-banner-section",
       "settings": {
       }
     },
@@ -12,7 +12,7 @@
     }
   },
   "order": [
-    "ecom_free_willie_hp_banner_section_4kqTU9",
+    "ecom_timex_q_diver_hp_banner_section_4DLXkk",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
