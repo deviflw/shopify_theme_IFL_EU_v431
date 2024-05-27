@@ -1,7 +1,7 @@
 {
   "sections": {
-    "ecom_wanderer_hp_banner_section_HnrLhm": {
-      "type": "ecom-wanderer-hp-banner-section",
+    "ecom_graviti_hp_banner_section_rYpJYw": {
+      "type": "ecom-graviti-hp-banner-section",
       "settings": {
       }
     },
@@ -12,7 +12,7 @@
     }
   },
   "order": [
-    "ecom_wanderer_hp_banner_section_HnrLhm",
+    "ecom_graviti_hp_banner_section_rYpJYw",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
