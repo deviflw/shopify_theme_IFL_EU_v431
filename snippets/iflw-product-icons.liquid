@@ -7,11 +7,19 @@
       'Steel CasiOak Watches',
       'Tissot Watches',
       'Oris Watches',
-      'Citizen Watches'
+      'Citizen Watches',
+      'Timex Watches',
+      'Seiko Watches'
     %}
-      <div class="iflw-atc-icon-hand-painted">
-        {% render 'ecom-ifl-icons-hand-painted-block' %}
-      </div>
+      {% if product.tags contains 'Bespoke' %}
+        <div class="iflw-atc-icon-bespoke">
+          {% render 'ecom-ifl-icons-bespoke-block' %}
+        </div>
+      {% else %}
+        <div class="iflw-atc-icon-hand-painted">
+          {% render 'ecom-ifl-icons-hand-painted-block' %}
+        </div>
+      {% endif %}
     {% when 'Watch Straps' %}
       <div class="iflw-atc-icon-strap">
         {% render 'ecom-ifl-icons-straps-block' %}
@@ -20,9 +28,13 @@
       <div class="iflw-atc-icon-swiss">
         {% render 'ecom-ifl-icons-swiss-made-block' %}
       </div>
-    {% when 'Original Citizen Watches' %}
-      <div class="iflw-atc-icon-swiss">
+    {% when 'Original Citizen Watches', 'Original Seiko Watches' %}
+      <div class="iflw-atc-icon-original">
         {% render 'ecom-ifl-icons-original-watches-block' %}
+      </div>
+    {% when 'Wall Art', 'Carbonfibre Art', 'Clocks', 'Watch Sculptures' %}
+      <div class="iflw-atc-icon-art">
+        {% render 'ecom-ifl-icons-art-block' %}
       </div>
     {% else %}
       <div class="iflw-atc-icon-handmade">
