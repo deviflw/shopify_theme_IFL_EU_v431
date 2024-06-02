@@ -1,0 +1,8 @@
+{
+  "parent": "product.ecom-universal-vanilla.json",
+  "context": {
+    "market": "germany"
+  },
+  "sections": {
+  }
+}
