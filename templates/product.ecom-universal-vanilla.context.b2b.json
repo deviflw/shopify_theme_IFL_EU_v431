@@ -1,8 +1,0 @@
-{
-  "parent": "product.ecom-universal-vanilla.json",
-  "context": {
-    "b2b": true
-  },
-  "sections": {
-  }
-}
