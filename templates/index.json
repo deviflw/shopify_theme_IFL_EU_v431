@@ -1,7 +1,7 @@
 {
   "sections": {
-    "ecom_orca_hp_banner_section_j3JMVY": {
-      "type": "ecom-orca-hp-banner-section",
+    "ecom_summer_sale_hp_banner_section_yc69t7": {
+      "type": "ecom-summer-sale-hp-banner-section",
       "settings": {
       }
     },
@@ -12,7 +12,7 @@
     }
   },
   "order": [
-    "ecom_orca_hp_banner_section_j3JMVY",
+    "ecom_summer_sale_hp_banner_section_yc69t7",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
