@@ -976,6 +976,19 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
+          "menu_TTKD3i": {
+            "type": "menu",
+            "settings": {
+              "title": "SUMMER SALE",
+              "url": "shopify:\/\/collections\/summer-sale",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "30%",
+              "lb_cl": "{{ shop.brand.colors.secondary[1].background }}",
+              "icons_op": "2",
+              "icon": ""
+            }
+          },
           "menu_DNtPeM": {
             "type": "menu",
             "settings": {
@@ -1104,6 +1117,7 @@
           }
         },
         "block_order": [
+          "menu_TTKD3i",
           "menu_DNtPeM",
           "menu_P8aC3n",
           "menu_XWMpYx",
