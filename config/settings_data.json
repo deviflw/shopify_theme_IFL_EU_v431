@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "purchase_code": "02022fd5-dee0-4780-b0a8-6101cc18cf72",
@@ -461,7 +470,7 @@
               "icon": "",
               "cus_cl": false,
               "cl": "{{ shop.brand.colors.secondary[0].background }}",
-              "lb": "30%",
+              "lb": "50%",
               "lb_cl": "{{ shop.brand.colors.secondary[1].background }}"
             }
           },
@@ -983,7 +992,7 @@
               "url": "shopify:\/\/collections\/summer-sale",
               "open_link": "_self",
               "menu": "",
-              "lb": "30%",
+              "lb": "50%",
               "lb_cl": "{{ shop.brand.colors.secondary[1].background }}",
               "icons_op": "2",
               "icon": ""
