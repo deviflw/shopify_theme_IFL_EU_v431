@@ -538,7 +538,7 @@
             "type": "base",
             "settings": {
               "title": "BESPOKE",
-              "url": "shopify:\/\/pages\/bespoke-watches",
+              "url": "shopify:\/\/collections\/bespoke-timepieces",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -1066,7 +1066,7 @@
           "menu_KKx3GF": {
             "type": "menu",
             "settings": {
-              "title": "Bespoke Watches",
+              "title": "Bespoke Customization",
               "url": "shopify:\/\/pages\/bespoke-watches",
               "open_link": "_self",
               "menu": "",
