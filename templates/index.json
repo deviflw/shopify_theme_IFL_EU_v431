@@ -1,7 +1,16 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
-    "ecom_summer_sale_hp_banner_section_yc69t7": {
-      "type": "ecom-summer-sale-hp-banner-section",
+    "ecom_sale_watches_hp_slider_section_CmndqD": {
+      "type": "ecom-sale-watches-hp-slider-section",
       "settings": {
       }
     },
@@ -12,7 +21,7 @@
     }
   },
   "order": [
-    "ecom_summer_sale_hp_banner_section_yc69t7",
+    "ecom_sale_watches_hp_slider_section_CmndqD",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
