@@ -73,11 +73,6 @@
             "btn_cl2": "dark",
             "button_effect2": "default"
           }
-        },
-        "5ae3c0ee-4bc7-4818-af8a-d10d3958189a": {
-          "type": "btnmr",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -85,8 +80,7 @@
         "74a2487d-dac7-4195-9e12-0f6eb118b1a1",
         "2fef20ad-861c-4d15-aca6-4c26b6ee96f9",
         "1f5c1718-08c4-406f-a332-28431934bf99",
-        "683a32d9-dc0c-4210-b04b-08b2c90dff29",
-        "5ae3c0ee-4bc7-4818-af8a-d10d3958189a"
+        "683a32d9-dc0c-4210-b04b-08b2c90dff29"
       ],
       "settings": {
         "enable_calc_ship": false,
