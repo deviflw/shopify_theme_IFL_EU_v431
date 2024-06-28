@@ -9,8 +9,8 @@
 */
 {
   "sections": {
-    "ecom_sale_watches_hp_slider_section_CmndqD": {
-      "type": "ecom-sale-watches-hp-slider-section",
+    "ecom_sale_whale_hp_slider_section_RXMdUa": {
+      "type": "ecom-sale-whale-hp-slider-section",
       "settings": {
       }
     },
@@ -21,7 +21,7 @@
     }
   },
   "order": [
-    "ecom_sale_watches_hp_slider_section_CmndqD",
+    "ecom_sale_whale_hp_slider_section_RXMdUa",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
