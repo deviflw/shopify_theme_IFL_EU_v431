@@ -1,4 +1,4 @@
-/* Publish by EComposer at 2024-06-18 10:01:07*//**ECOM-INSERT-CSS**/
+/* Publish by EComposer at 2024-07-12 11:45:40*//**ECOM-INSERT-CSS**/
                 .ecom-column {
                     position: relative;
                     /* display: flex; responsive generate display block */
@@ -170,9 +170,9 @@
                 .ecom__element-divi .ecom-image-default{
                     width:300px;
                     flex-shrink:0;
-                 
+
                 }
-               
+
                 .ecom__element-divi .ecom-base-image .ecom-image-picture {
                     width: 100%;
                     max-width: 100%;
@@ -188,7 +188,7 @@
                 .ecom__element-divi .ecom-image-default .ecom-image-picture img{
                     object-fit: contain;
                 }
-               
+
                 .divi-cont-before.divi-style, .divi-cont-after.divi-style {
                     flex: var(--flex-desktop);
                     width: var(--divider-width);

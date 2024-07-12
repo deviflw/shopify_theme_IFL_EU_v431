@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2024-06-18 10:01:07
+ At 2024-07-12 11:45:40
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -34,12 +34,14 @@
  {%- assign menu = linklists['main-menu'] -%}
  {% endif %}
 								{%- capture show_humber-%}false{%- endcapture -%}
+								{%- capture icon_menu-%}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>{%- endcapture -%}
+								{%- capture icon_menu_active-%}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>{%- endcapture -%}
 								{%- if show_humber == 'true' -%}
- <div class="ecom-menu__icon-humber--wrapper">
- <div class="ecom-menu__icon-humber">
- <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
- </div>
- </div>
+									<div class="ecom-menu__icon-humber--wrapper">
+											<div class="ecom-menu__icon-humber">
+													<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+											</div>
+									</div>
 									<div class="ecom-shopify__menu-list--mobile--wrapper">
 										<ul class="ecom-shopify__menu-list--mobile" data-show-humber="undefined">
 											<div class="modal-header">
@@ -57,10 +59,10 @@
 																{%- if link.levels > 0 -%}
 																	<div class="ecom-element--menu_icon">
 																		<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																			{{ icon_menu }}
 																		</div>
 																		<div class="ecom-items--icon ecom-element--menu_icon--active">
-																			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																			{{ icon_menu_active }}
 																		</div>
 																	</div>
 																{%- endif -%}
@@ -77,10 +79,10 @@
 																				{%- if child.levels > 0 -%}
 																					<div class="ecom-element--menu_icon">
 																						<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																							{{ icon_menu }}
 																						</div>
 																						<div class="ecom-items--icon ecom-element--menu_icon--active">
-																							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																							{{ icon_menu_active }}
 																						</div>
 																					</div>
 																				{%- endif -%}
@@ -104,7 +106,7 @@
 													</li>
 												{% endfor %}
 											{% endif %}
-										</ul>	
+										</ul>
 									</div>
 								{%- endif -%}
 								<div class="ecom-shopify__menu-list--wrapper ecom-flex">
@@ -119,10 +121,10 @@
 															{%- if link.levels > 0 -%}
 																<div class="ecom-element--menu_icon">
 																	<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																		{{ icon_menu }}
 																	</div>
 																	<div class="ecom-items--icon ecom-element--menu_icon--active">
-																		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																		{{ icon_menu_active }}
 																	</div>
 																</div>
 															{%- endif -%}
@@ -142,10 +144,10 @@
 																			{%- if child.levels > 0 -%}
 																				<div class="ecom-element--menu_icon">
 																					<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																						{{ icon_menu }}
 																					</div>
 																					<div class="ecom-items--icon ecom-element--menu_icon--active">
-																						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																						{{ icon_menu_active }}
 																					</div>
 																				</div>
 																			{%- endif -%}
@@ -189,12 +191,14 @@
  {%- assign menu = linklists['main-menu'] -%}
  {% endif %}
 								{%- capture show_humber-%}false{%- endcapture -%}
+								{%- capture icon_menu-%}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>{%- endcapture -%}
+								{%- capture icon_menu_active-%}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>{%- endcapture -%}
 								{%- if show_humber == 'true' -%}
- <div class="ecom-menu__icon-humber--wrapper">
- <div class="ecom-menu__icon-humber">
- <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
- </div>
- </div>
+									<div class="ecom-menu__icon-humber--wrapper">
+											<div class="ecom-menu__icon-humber">
+													<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+											</div>
+									</div>
 									<div class="ecom-shopify__menu-list--mobile--wrapper">
 										<ul class="ecom-shopify__menu-list--mobile" data-show-humber="undefined">
 											<div class="modal-header">
@@ -212,10 +216,10 @@
 																{%- if link.levels > 0 -%}
 																	<div class="ecom-element--menu_icon">
 																		<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																			{{ icon_menu }}
 																		</div>
 																		<div class="ecom-items--icon ecom-element--menu_icon--active">
-																			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																			{{ icon_menu_active }}
 																		</div>
 																	</div>
 																{%- endif -%}
@@ -232,10 +236,10 @@
 																				{%- if child.levels > 0 -%}
 																					<div class="ecom-element--menu_icon">
 																						<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																							{{ icon_menu }}
 																						</div>
 																						<div class="ecom-items--icon ecom-element--menu_icon--active">
-																							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																							{{ icon_menu_active }}
 																						</div>
 																					</div>
 																				{%- endif -%}
@@ -259,7 +263,7 @@
 													</li>
 												{% endfor %}
 											{% endif %}
-										</ul>	
+										</ul>
 									</div>
 								{%- endif -%}
 								<div class="ecom-shopify__menu-list--wrapper ecom-flex">
@@ -274,10 +278,10 @@
 															{%- if link.levels > 0 -%}
 																<div class="ecom-element--menu_icon">
 																	<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																		{{ icon_menu }}
 																	</div>
 																	<div class="ecom-items--icon ecom-element--menu_icon--active">
-																		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																		{{ icon_menu_active }}
 																	</div>
 																</div>
 															{%- endif -%}
@@ -297,10 +301,10 @@
 																			{%- if child.levels > 0 -%}
 																				<div class="ecom-element--menu_icon">
 																					<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																						{{ icon_menu }}
 																					</div>
 																					<div class="ecom-items--icon ecom-element--menu_icon--active">
-																						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																						{{ icon_menu_active }}
 																					</div>
 																				</div>
 																			{%- endif -%}
@@ -344,12 +348,14 @@
  {%- assign menu = linklists['main-menu'] -%}
  {% endif %}
 								{%- capture show_humber-%}false{%- endcapture -%}
+								{%- capture icon_menu-%}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>{%- endcapture -%}
+								{%- capture icon_menu_active-%}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>{%- endcapture -%}
 								{%- if show_humber == 'true' -%}
- <div class="ecom-menu__icon-humber--wrapper">
- <div class="ecom-menu__icon-humber">
- <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
- </div>
- </div>
+									<div class="ecom-menu__icon-humber--wrapper">
+											<div class="ecom-menu__icon-humber">
+													<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+											</div>
+									</div>
 									<div class="ecom-shopify__menu-list--mobile--wrapper">
 										<ul class="ecom-shopify__menu-list--mobile" data-show-humber="undefined">
 											<div class="modal-header">
@@ -367,10 +373,10 @@
 																{%- if link.levels > 0 -%}
 																	<div class="ecom-element--menu_icon">
 																		<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																			{{ icon_menu }}
 																		</div>
 																		<div class="ecom-items--icon ecom-element--menu_icon--active">
-																			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																			{{ icon_menu_active }}
 																		</div>
 																	</div>
 																{%- endif -%}
@@ -387,10 +393,10 @@
 																				{%- if child.levels > 0 -%}
 																					<div class="ecom-element--menu_icon">
 																						<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																							{{ icon_menu }}
 																						</div>
 																						<div class="ecom-items--icon ecom-element--menu_icon--active">
-																							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																							{{ icon_menu_active }}
 																						</div>
 																					</div>
 																				{%- endif -%}
@@ -414,7 +420,7 @@
 													</li>
 												{% endfor %}
 											{% endif %}
-										</ul>	
+										</ul>
 									</div>
 								{%- endif -%}
 								<div class="ecom-shopify__menu-list--wrapper ecom-flex">
@@ -429,10 +435,10 @@
 															{%- if link.levels > 0 -%}
 																<div class="ecom-element--menu_icon">
 																	<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																		{{ icon_menu }}
 																	</div>
 																	<div class="ecom-items--icon ecom-element--menu_icon--active">
-																		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																		{{ icon_menu_active }}
 																	</div>
 																</div>
 															{%- endif -%}
@@ -452,10 +458,10 @@
 																			{%- if child.levels > 0 -%}
 																				<div class="ecom-element--menu_icon">
 																					<div class="ecom-items--icon ecom-element--menu_icon--normal">
-																						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+																						{{ icon_menu }}
 																					</div>
 																					<div class="ecom-items--icon ecom-element--menu_icon--active">
-																						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"></path></svg>
+																						{{ icon_menu_active }}
 																					</div>
 																				</div>
 																			{%- endif -%}
@@ -500,7 +506,7 @@ Copyright {{ 'now' | date: "%Y" }} © IFL Watches. All rights reserved.
 </div></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-074nfufzzzec"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-scmyzba17r" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2"><selector-root data-id=BD920434 id="BD920434"></selector-root></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-t6nf9i2d64"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="2"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-vjfto1qyr4n" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2"><selector-root data-id=XN532086 id="XN532086"></selector-root></div></div> </div></div></div></div> <div class="ecom-column ecom-core core__column--last ecom-pmqqctzga8d"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="3"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-cv24r89ue37" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__payment-method" deep="2">{%- if cart.item_count > 0 or request.page_type != 'cart' -%}<div class="ecom-product-single__playment-method-wrapper"><div class="ecom-product-single-payment-method-container"><div><ul class="ecom-product-single__payment-method-list" role="list" data-ecom-placeholder="">
  
  {%- capture arrPayment -%}
- visa,master,apple_pay,paypal
+ visa,master,apple_pay
  {%- endcapture -%}
  {% assign arrPayment = arrPayment | split: ',' %}
  
