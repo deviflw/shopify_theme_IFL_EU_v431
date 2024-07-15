@@ -9,8 +9,8 @@
 */
 {
   "sections": {
-    "ecom_sale_whale_hp_slider_section_RXMdUa": {
-      "type": "ecom-sale-whale-hp-slider-section",
+    "ecom_sale_wise_guys_hp_slider_section_QPeH7M": {
+      "type": "ecom-sale-wise-guys-hp-slider-section",
       "settings": {
       }
     },
@@ -21,7 +21,7 @@
     }
   },
   "order": [
-    "ecom_sale_whale_hp_slider_section_RXMdUa",
+    "ecom_sale_wise_guys_hp_slider_section_QPeH7M",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
