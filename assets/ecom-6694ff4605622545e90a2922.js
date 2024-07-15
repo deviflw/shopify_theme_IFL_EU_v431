@@ -1,4 +1,4 @@
-/* Publish by EComposer at 2024-07-15 10:51:51*/
+/* Publish by EComposer at 2024-07-15 12:52:31*/
                 (function(){
                     const Func = (function() {
                         'use strict';
@@ -21,6 +21,22 @@ if(!this.$el)return;const e=this.$el,i=e.querySelector(".ecom-text_view-more-btn
                     
                         document.querySelectorAll('.ecom-cuzljttcznc').forEach(function(el){
                             Func.call({$el: el, id: 'ecom-cuzljttcznc', settings: {},isLive: true});
+                        });
+                    
+                        document.querySelectorAll('.ecom-ya0q2e6yke').forEach(function(el){
+                            Func.call({$el: el, id: 'ecom-ya0q2e6yke', settings: {},isLive: true});
+                        });
+                    
+                        document.querySelectorAll('.ecom-ecfhbmusdc7').forEach(function(el){
+                            Func.call({$el: el, id: 'ecom-ecfhbmusdc7', settings: {},isLive: true});
+                        });
+                    
+                        document.querySelectorAll('.ecom-rb3jxz42fyr').forEach(function(el){
+                            Func.call({$el: el, id: 'ecom-rb3jxz42fyr', settings: {},isLive: true});
+                        });
+                    
+                        document.querySelectorAll('.ecom-0mdluhav3p5b').forEach(function(el){
+                            Func.call({$el: el, id: 'ecom-0mdluhav3p5b', settings: {},isLive: true});
                         });
                     
 
