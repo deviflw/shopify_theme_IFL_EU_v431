@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2024-07-12 11:45:40
+ At 2024-07-20 18:41:44
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -506,7 +506,7 @@ Copyright {{ 'now' | date: "%Y" }} © IFL Watches. All rights reserved.
 </div></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-074nfufzzzec"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-scmyzba17r" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2"><selector-root data-id=BD920434 id="BD920434"></selector-root></div></div> </div></div></div></div> <div class="ecom-column ecom-core ecom-t6nf9i2d64"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="2"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-vjfto1qyr4n" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2"><selector-root data-id=XN532086 id="XN532086"></selector-root></div></div> </div></div></div></div> <div class="ecom-column ecom-core core__column--last ecom-pmqqctzga8d"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="3"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-cv24r89ue37" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__payment-method" deep="2">{%- if cart.item_count > 0 or request.page_type != 'cart' -%}<div class="ecom-product-single__playment-method-wrapper"><div class="ecom-product-single-payment-method-container"><div><ul class="ecom-product-single__payment-method-list" role="list" data-ecom-placeholder="">
  
  {%- capture arrPayment -%}
- visa,master,apple_pay
+ visa,master,apple_pay,paypal
  {%- endcapture -%}
  {% assign arrPayment = arrPayment | split: ',' %}
  
