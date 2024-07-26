@@ -925,16 +925,6 @@
               "col": "3"
             }
           },
-          "link_AwgjgY": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Watch Accessories",
-              "url": "shopify:\/\/collections\/watch-accessories",
-              "open_link": "_self",
-              "menu": "watch-accessories",
-              "col": "3"
-            }
-          },
           "cat_JKMGfR": {
             "type": "cat",
             "settings": {
@@ -961,6 +951,16 @@
               "collection_link": "",
               "col": "3"
             }
+          },
+          "link_AwgjgY": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Watch Accessories",
+              "url": "shopify:\/\/collections\/watch-accessories",
+              "open_link": "_self",
+              "menu": "watch-accessories",
+              "col": "3"
+            }
           }
         },
         "block_order": [
@@ -975,8 +975,8 @@
           "5952e385-42a5-4603-9be9-64b76f15ef48",
           "link_gcGnDV",
           "cat_CQBNat",
-          "link_AwgjgY",
-          "cat_JKMGfR"
+          "cat_JKMGfR",
+          "link_AwgjgY"
         ],
         "settings": {
           "bg": "#ffffff"
