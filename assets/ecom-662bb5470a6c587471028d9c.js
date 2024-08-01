@@ -1,4 +1,4 @@
-/* Publish by EComposer at 2024-08-01 13:30:36*/
+/* Publish by EComposer at 2024-08-01 14:44:03*/
                 (function(){
                     const Func = (function() {
                         'use strict';
@@ -9,6 +9,14 @@ if(!this.settings||!this.$el||this.isLive)return;const e=this.$el;let i=e.queryS
                     
                         document.querySelectorAll('.ecom-5rdmsyvfrzm').forEach(function(el){
                             Func.call({$el: el, id: 'ecom-5rdmsyvfrzm', settings: {},isLive: true});
+                        });
+                    
+                        document.querySelectorAll('.ecom-qy364ufty4m').forEach(function(el){
+                            Func.call({$el: el, id: 'ecom-qy364ufty4m', settings: {},isLive: true});
+                        });
+                    
+                        document.querySelectorAll('.ecom-3judri5ya2t').forEach(function(el){
+                            Func.call({$el: el, id: 'ecom-3judri5ya2t', settings: {},isLive: true});
                         });
                     
 
@@ -28,6 +36,10 @@ if(!this.$el)return;const e=this.$el,i=e.querySelector(".ecom-text_view-more-btn
                     
                         document.querySelectorAll('.ecom-kunjhntq47p').forEach(function(el){
                             Func.call({$el: el, id: 'ecom-kunjhntq47p', settings: {},isLive: true});
+                        });
+                    
+                        document.querySelectorAll('.ecom-qzjjjddowea').forEach(function(el){
+                            Func.call({$el: el, id: 'ecom-qzjjjddowea', settings: {},isLive: true});
                         });
                     
 
