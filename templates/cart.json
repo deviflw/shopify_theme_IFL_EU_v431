@@ -94,7 +94,7 @@
     "recently-viewed-products": {
       "type": "recently_viewed",
       "settings": {
-        "show": true,
+        "show": false,
         "design_heading": "1",
         "heading_align": "t4s-text-center",
         "top_heading": "Recently viewed products",
@@ -145,11 +145,17 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "ecom_collections_slider_section_AhNy4N": {
+      "type": "ecom-collections-slider-section",
+      "settings": {
+      }
     }
   },
   "order": [
     "heading",
     "main",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "ecom_collections_slider_section_AhNy4N"
   ]
 }
