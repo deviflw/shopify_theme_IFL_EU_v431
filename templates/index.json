@@ -9,8 +9,8 @@
 */
 {
   "sections": {
-    "ecom_sale_bruce_lee_hp_slider_section_BqCAW4": {
-      "type": "ecom-sale-bruce-lee-hp-slider-section",
+    "ecom_sale_dj_willie_hp_slider_section_93fhNE": {
+      "type": "ecom-sale-dj-willie-hp-slider-section",
       "settings": {
       }
     },
@@ -21,7 +21,7 @@
     }
   },
   "order": [
-    "ecom_sale_bruce_lee_hp_slider_section_BqCAW4",
+    "ecom_sale_dj_willie_hp_slider_section_93fhNE",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
