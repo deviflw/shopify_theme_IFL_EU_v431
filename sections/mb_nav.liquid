@@ -13,6 +13,7 @@ else
 endif -%}
 
 {%- if show_code -%}
+  <selector-root data-id=UY465572 id="UY465572"></selector-root>
 <ul id="menu-mb__ul" class="t4s-mb__menu" data-section-id="{{ sid }}">
    {%- if section.blocks.size > 0 -%}
       {%- for block in section.blocks -%}
@@ -329,7 +330,7 @@ endif -%}
       {"type": "paragraph","content": "#{{ i }} ——————————————"},{"label": " Collection #{{ i }}","id": "cat{{ i }}", "type": "collection"},{"type": "image_picker","id": "image{{ i }}","label": "Image #{{ i }}"},
 {%- endfor -%}
 {%- endcomment -%}
-<selector-root data-id=UY465572 id="UY465572"></selector-root>
+
 {% schema %}
   {
     "name": "Mobile Menu",
