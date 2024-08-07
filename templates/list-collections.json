@@ -37,21 +37,21 @@
           "type": "collection",
           "settings": {
             "collection": "all-watches",
-            "collection_title": "Collection"
+            "collection_title": ""
           }
         },
         "collection_eFYRdn": {
           "type": "collection",
           "settings": {
             "collection": "bespoke-timepieces",
-            "collection_title": "Collection"
+            "collection_title": ""
           }
         },
         "collection_3KjXzQ": {
           "type": "collection",
           "settings": {
             "collection": "casioak",
-            "collection_title": "Collection"
+            "collection_title": ""
           }
         },
         "collection_CcTVhj": {
@@ -60,13 +60,29 @@
             "collection": "casioak-mini",
             "collection_title": ""
           }
+        },
+        "collection_HqNVHE": {
+          "type": "collection",
+          "settings": {
+            "collection": "limited-edition",
+            "collection_title": ""
+          }
+        },
+        "collection_G6mkDF": {
+          "type": "collection",
+          "settings": {
+            "collection": "timex-watches",
+            "collection_title": ""
+          }
         }
       },
       "block_order": [
         "collection_t736nL",
         "collection_eFYRdn",
         "collection_3KjXzQ",
-        "collection_CcTVhj"
+        "collection_CcTVhj",
+        "collection_HqNVHE",
+        "collection_G6mkDF"
       ],
       "settings": {
         "cat_design": "1",
@@ -76,7 +92,7 @@
         "count_cl": "#222222",
         "border_cl": "#e5e5e5",
         "display_type": "selected",
-        "limit": 6,
+        "limit": 9,
         "layout_des": "1",
         "col_dk": "3",
         "col_tb": "3",
@@ -107,7 +123,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,80px,",
+        "mg": "30px,,30px",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
