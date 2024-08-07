@@ -95,7 +95,7 @@
     "link_ship": "shopify:\/\/policies\/shipping-policy",
     "link_conditions": "shopify:\/\/policies\/terms-of-service",
     "use_privacy_policy": true,
-    "privacy_policy_link": "shopify:\/\/pages\/privacy-policy",
+    "privacy_policy_link": "shopify:\/\/policies\/privacy-policy",
     "login_side": false,
     "predictive_search": false,
     "filter_type_search": false,
