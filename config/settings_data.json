@@ -59,7 +59,7 @@
     "hd_ffamily": "1",
     "enable_compe": false,
     "app_review": "6",
-    "badge_shape": "1",
+    "badge_shape": "2",
     "label_sale_style": "2",
     "use_new_badge": false,
     "sale_badge_color": "{{ shop.brand.colors.secondary[0].background }}",
