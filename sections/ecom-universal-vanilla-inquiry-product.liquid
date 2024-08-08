@@ -1,0 +1,175 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ At 2024-08-08 14:01:39
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.6" /><noscript><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.6" /></noscript>
+{%capture section_id %}ecom-universal-vanilla-inquiry-product{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+{{'ecom-66b4cf58345f07c93a09f7c2.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-66b4cf58345f07c93a09f7c2.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="66b4cf58345f07c93a09f7c2";
+ window.EComposer.TEMPLATE = {"template_id":"66b4cf58345f07c93a09f7c2","title":"Universal Vanilla Inquiry","type":"product","slug":"ecom-universal-vanilla-inquiry","plan_id":6};
+ </script>
+<div class="ecom-builder" id="ecom-universal-vanilla-inquiry"><div class="ecom-sections" data-section-id="{{section.id}}"><section class="ecom-row ecom-core ecom-section ecom-f6l9b6gqk9t" data-id="ecom-f6l9b6gqk9t" style="z-index: inherit;"><div data-deep="1" class="core__row--columns core__row--full"><div class="ecom-column ecom-core core__column--first core__column--last ecom-ogdxdl02n8r"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-mky77wsb4ac" data-core-is="block"><div class="ecom-element ecom-shopify ecom-shopify__global-block" deep="1"><div class="ecom-element ecom-shopify ecom-shopify__global-block__wrapper">
+ 
+ {%- render 'ecom-ifl-p-top-vanilla-inquiry-block' -%}
+ 
+ </div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section><section class="ecom-row ecom-core ecom-section ecom-50p3khfatq3 iflw-product-ld" data-id="ecom-50p3khfatq3" style="z-index: inherit;"><div data-deep="1" class="core__row--columns core__row--full"><div class="ecom-column ecom-core core__column--first core__column--last ecom-04xbptthmsj7"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-d4epjdye65k" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="1">{% render 'iflw-ld' %}</div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section><section class="ecom-row ecom-core ecom-section ecom-fcb4ca7mutf" data-id="ecom-fcb4ca7mutf" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-61joquebcvx"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-19uza3ffyxo" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="1">{% render 'iflw-watches-disclaimer' %}</div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+ {% comment %}
+ // Reactive
+ * this.data.settings.product
+ {% endcomment %}
+ {% liquid
+ if request.page_type != 'product' or product == blank
+ assign selected_product = ''
+ if selected_product == blank or selected_product == '' or all_products[selected_product] == blank
+ assign product = collections['all'].products.first
+ else
+ assign product = all_products[selected_product]
+ if product.id == blank
+ assign product = collections['all'].products.last
+ endif
+ endif
+ endif
+ %}
+ {%- if product != blank -%}
+ {%- capture ec_form_id -%}product_form_{{ product.id }}_ecom-awy9md9ulqh{%- endcapture -%}
+ {%- form 'product', product, id: ec_form_id, class: "ecom-product-form ecom-product-form--single ecom-click", product_id: product.id, data-product_id: product.id,data-product-id: product.id, data-handle: product.handle-%}
+ <section class="ecom-row ecom-core ecom-section ecom-awy9md9ulqh" data-id="ecom-awy9md9ulqh" style="z-index: inherit;"><div data-deep="1" class="core__row--columns core__row--full"><div class="ecom-column ecom-core core__column--first core__column--last ecom-t68sftd1h2"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-r4b7ujzo5n" data-core-is="row"><div class="ecom-row ecom-core core__block ecom-8slawh0r34x" data-id="ecom-8slawh0r34x" style="z-index: inherit;"><div data-deep="2" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-cmry0ywhf9l"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-1addn5xcs54" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="2"><h3 class="ecom__heading ecom-db"><div>Inspired by Your Choice<br></div></h3></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-yqgbypek59" data-core-is="block"><div class="ecom__element element__heading ecom-element ecom-html" data-stopdrag="true" deep="2"><h3 class="ecom__heading ecom-db">Similar Picks from IFL Just for You</h3></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block elmspace ecom-pnzeo3zzxr7" data-core-is="block"><div class="ecom-element ecom-kalles-product-grid" deep="1">
+ 
+ {% assign ecom_related_type = '' %}
+ {% assign is_collection = false%}
+ {% assign current_product = product %}
+ {% if current_product %}
+ 
+ {%- capture limit-%}4{% endcapture %}
+ {%- if limit == blank -%}
+ {% assign limit = 12 %}
+ {% else %}
+ {% assign limit = limit | plus: 0 %}
+ {%- endif-%}
+ 
+ {% if product.type and product.type != blank and products.size < 2 or products == blank %}
+ {% paginate collections.all.products by 1000 %}
+ {% assign products = collections.all.products | where: 'type', product.type | where: "available" %}
+ {% endpaginate %}
+ {% assign ecom_related_type = 'ecom-product-related-shopify-type' %}
+ {% endif %}
+ 
+ {% if product.collections.size > 0 and products.size < 2 or products == blank %}
+ {% for c in product.collections %}
+ {% if c.handle == 'all' or c.handle == 'frontpage' or c.products_count < 1 %}{% continue%}{% endif%}
+ {% assign products = c.products | where: "available" %}
+ {% assign ecom_related_type = 'ecom-product-related-shopify-collection' %}
+ {% assign is_collection = true%}
+ {% assign collection = c %}
+ {%- break -%}
+ {% endfor %}
+ {% endif %}
+ 
+ {% endif %}
+ 
+ {{ 'collection-products.css' | asset_url | stylesheet_tag }}
+ {%- capture image_ratio -%} ratio1_1{%- endcapture -%}
+ {%-liquid
+ assign ecom_count = 0
+ assign prefix_url = 'ecom' | within:collection |remove:'ecom'
+ assign isGrowaveWishlist = false
+ assign show_img = true
+ assign show_vendor = false
+ assign enable_pr_color = true
+ assign get_color = 'colorcolorscouleurcolour'
+ assign enable_pr_size = false
+ assign show_size_type = false
+ assign price_varies_style = 1
+ assign app_review = 2
+ assign use_countdown = false
+ if image_ratio == "ratioadapt"
+ assign imgatt = ''
+ else
+ assign imgatt = 'data-'
+ endif
+ -%}
+ 
+ {%- assign temp_product = product -%}
+ <div
+ data-collection-url="{{collection.url}}"
+ data-contentlm-replace
+ class="t4s_box_pr_grid t4s-products t4s-justify-content-center t4s-text-default t4s_{{image_ratio}} t4s_position_8 t4s_cover t4s-row t4s-row-cols-lg-4 t4s-row-cols-md-2 t4s-row-cols-2 t4s-gx-md-30 t4s-gy-md-30 t4s-gx-10 t4s-gy-10"
+ >
+ {%- for p in products -%}
+ {%- if p.handle -%}
+ {% assign product = p %}
+ {%- else -%}
+ {% assign product = all_products[p] %}
+ {%- endif -%}
+ {% if product.handle == blank or product.handle == temp_product.handle %}{%- continue -%}{% endif %}
+ {% if ecom_count >= limit %}{% break %}{% endif %}
+ {% assign ecom_count = ecom_count | plus: 1 %}
+ {%- render 'product-grid-item1'
+ product:product,
+ prefix_url:prefix_url,
+ isGrowaveWishlist:isGrowaveWishlist,
+ show_img:show_img,
+ show_vendor:show_vendor,
+ enable_pr_color:enable_pr_color,
+ show_cl_type:'1',
+ get_color:get_color,
+ enable_pr_size:enable_pr_size,
+ pr_size_pos:pr_size_pos,
+ get_size:get_size,
+ show_size_type:show_size_type,
+ price_varies_style:price_varies_style,
+ app_review:app_review,
+ use_countdown:use_countdown,
+ imgatt:imgatt,
+ show_list_btns:false
+ -%}
+ {%- endfor -%}
+ </div> 
+ 
+ {%- assign product = temp_product -%}
+ </div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+ {% unless ecom_has_variant_picker %}
+ <input type="hidden" name="id" value="{{product.selected_or_first_available_variant.id}}" />
+ <script type="application/json" id="product-json-{{product.id}}-ecom-awy9md9ulqh">
+ {%- render "ecom_product_json", product: product -%}
+ </script>
+ {% endunless %}
+ {%- endform -%}
+ {% assign ecom_has_variant_picker = false %}
+ {%- endif -%}
+ <section class="ecom-row ecom-core ecom-section ecom-v923nkaz28k" data-id="ecom-v923nkaz28k" style="z-index: inherit;"><div data-deep="1" class="core__row--columns core__row--full"><div class="ecom-column ecom-core core__column--first core__column--last ecom-t48ikqesvqq"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-hjnipz8132f" data-core-is="block"><div class="ecom-element ecom-shopify ecom-shopify__global-block" deep="1"><div class="ecom-element ecom-shopify ecom-shopify__global-block__wrapper">
+ 
+ {%- render 'ecom-collections-slider-block' -%}
+ 
+ </div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+</div></div>{% capture ecom_google_snippet %}{% render 'ecom_google_snippet' %}{% endcapture %}{% unless ecom_google_snippet contains 'Liquid error' %}{{ ecom_google_snippet }}{% endunless %}
+{% schema %}
+{
+ "name": "Universal Vanilla Inquiry",
+ "locales": {},
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n Please don't add Shopify sections to EComposer's page in the theme customize. If you do this, Shopify sections will be deleted when you republish your page in EComposer\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/ecomposer.app\/shop?open_builder=1&page=product&id=66b4cf58345f07c93a09f7c2&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ]
+}
+{% endschema %}
