@@ -9,8 +9,8 @@
 */
 {
   "sections": {
-    "ecom_sale_dj_willie_hp_slider_section_93fhNE": {
-      "type": "ecom-sale-dj-willie-hp-slider-section",
+    "ecom_djwillie_hp_banner_section_NEyK7N": {
+      "type": "ecom-djwillie-hp-banner-section",
       "settings": {
       }
     },
@@ -21,7 +21,7 @@
     }
   },
   "order": [
-    "ecom_sale_dj_willie_hp_slider_section_93fhNE",
+    "ecom_djwillie_hp_banner_section_NEyK7N",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
