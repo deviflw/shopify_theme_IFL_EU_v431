@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2024-08-08 10:52:24
+ At 2024-08-08 13:46:26
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -522,8 +522,13 @@
  <div class="iflw-no-stock-meta">
  {{ product.metafields.custom.out_of_stock_message }}
  </div>
-{% endif %}</div></div> <div class="ecom-block ecom-core core__block elmspace ecom-qziguj0qhps iflw-waitlist-btn" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% if product.available == false %}
-<div style="margin-top: 25px;"><a class="klaviyo-bis-trigger" href="#">JOIN WAITLIST</a></div> 
+{% endif %}</div></div> <div class="ecom-block ecom-core core__block elmspace ecom-b7berml43qw iflw-waitlist-btn" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% if product.available == false %}
+<div style="margin-top: 25px; display: flex; gap: 15px;">
+ <a class="klaviyo-bis-trigger" href="#">JOIN WAITLIST</a>
+ {% if product.tags contains "limited" or product.tags contains "Bespoke" %}
+ <a class="button globo-open" data-id="NTE2MTc=" href="#NTE2MTc=" style="text-transform: uppercase; border: 2px solid #081820; color: #081820; background-color: transparent;">INQUIRE</a>
+ {% endif %}
+</div>
 {% endif %}</div></div> <div class="ecom-block ecom-core core__block ecom-6siqawc56gx" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">
 <div class="trustpilot-widget" data-locale="en-GB" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="5e4f8f0f7170470001dc6b53" data-style-height="85px" data-style-width="130px" data-theme="light">
  <a href="https://uk.trustpilot.com/review/iflwatches.com" target="_blank" rel="noopener">Trustpilot</a>
