@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2024-08-08 14:02:24
+ At 2024-08-12 12:52:17
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -194,6 +194,7 @@
  class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--image ecom-col-lg-6 ecom-col-md-6 ecom-col-6" data-index="{{forloop.index0}}" data-variant_id="{{ image.variants | map:'id' | join: ',' }}" style="--img_padding: {{ img_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ img_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ img_ration | divided_by: img_padding__mobile }}%;"
  >
  
+ 
  {%- assign img_master = image | img_url: 'master' -%}
  {{ image | image_url: width: 1946 | image_tag:
  sizes: sizes,
@@ -204,6 +205,7 @@
  ,fetchpriority: fetchpriority
  ,alt: image.alt | escape
  }}
+ 
  
  </div>
  {% endfor %}
@@ -292,6 +294,7 @@
  
  <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--image" data-index="{{forloop.index0}}" data-variant_id="{{ image.variants | map:'id' | join: ',' }}" style="--img_padding: {{ img_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ img_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ img_ration | divided_by: img_padding__mobile }}%;" data-half-width="{% assign img_ration_half = 1 | divided_by: image.aspect_ratio | times: 50 %}{{img_ration_half}}" data-full-width="{% assign img_ration_full = 1 | divided_by: image.aspect_ratio | times: 100 %}{{img_ration_full}}">
  
+ 
  {%- assign img_master = image | img_url: 'master' -%}
  {{ image | image_url: width: 1946 | image_tag:
  sizes: sizes,
@@ -302,6 +305,7 @@
  ,fetchpriority: fetchpriority
  ,alt: image.alt | escape
  }}
+ 
  
  </div>
  {% endfor %}
@@ -522,8 +526,13 @@
  <div class="iflw-no-stock-meta">
  {{ product.metafields.custom.out_of_stock_message }}
  </div>
-{% endif %}</div></div> <div class="ecom-block ecom-core core__block elmspace ecom-qziguj0qhps iflw-waitlist-btn" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% if product.available == false %}
-<div style="margin-top: 25px;"><a class="klaviyo-bis-trigger" href="#">JOIN WAITLIST</a></div> 
+{% endif %}</div></div> <div class="ecom-block ecom-core core__block elmspace ecom-b7berml43qw iflw-waitlist-btn" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% if product.available == false %}
+<div style="margin-top: 25px; display: flex; gap: 15px;">
+ <a class="klaviyo-bis-trigger" href="#">JOIN WAITLIST</a>
+ {% if product.handle == "countd-concept" %}
+ <a class="button globo-open" data-id="NTE2MTc=" href="#NTE2MTc=" style="text-transform: uppercase; border: 2px solid #081820; color: #081820; background-color: transparent;">INQUIRE</a>
+ {% endif %}
+</div>
 {% endif %}</div></div> <div class="ecom-block ecom-core core__block ecom-6siqawc56gx" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">
 <div class="trustpilot-widget" data-locale="en-GB" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="5e4f8f0f7170470001dc6b53" data-style-height="85px" data-style-width="130px" data-theme="light">
  <a href="https://uk.trustpilot.com/review/iflwatches.com" target="_blank" rel="noopener">Trustpilot</a>
