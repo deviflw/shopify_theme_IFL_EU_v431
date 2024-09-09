@@ -9,8 +9,8 @@
 */
 {
   "sections": {
-    "ecom_tsuyosa_midnight_sky_hp_banner_section_WAKTin": {
-      "type": "ecom-tsuyosa-midnight-sky-hp-banner-section",
+    "ecom_time_is_money_hp_banner_section_JPw4Uc": {
+      "type": "ecom-time-is-money-hp-banner-section",
       "settings": {
       }
     },
@@ -21,7 +21,7 @@
     }
   },
   "order": [
-    "ecom_tsuyosa_midnight_sky_hp_banner_section_WAKTin",
+    "ecom_time_is_money_hp_banner_section_JPw4Uc",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
