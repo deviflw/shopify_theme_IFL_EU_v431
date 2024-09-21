@@ -9,8 +9,8 @@
 */
 {
   "sections": {
-    "ecom_deep_ocean_predator_hp_banner_section_Wyb9iy": {
-      "type": "ecom-deep-ocean-predator-hp-banner-section",
+    "ecom_time_is_money_hp_banner_section_83pimy": {
+      "type": "ecom-time-is-money-hp-banner-section",
       "settings": {
       }
     },
@@ -21,7 +21,7 @@
     }
   },
   "order": [
-    "ecom_deep_ocean_predator_hp_banner_section_Wyb9iy",
+    "ecom_time_is_money_hp_banner_section_83pimy",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
