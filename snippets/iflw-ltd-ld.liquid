@@ -1,5 +1,4 @@
 {% case product.handle %}
-
   {% when 'g-shock-casioak-banana-split' %}
     {% render 'ecom-casioak-banana-split-ld-block' %}
 
@@ -40,17 +39,19 @@
     {% render 'ecom-whale-ld-vanilla-block' %}
 
   {% when 'wise-guys-concept' %}
-    {% render 'ecom-wise-guys-ld-vanilla-block' %}
+    {% render 'ecom-wise-guys-ld-vanilla-block' %}
 
   {% when 'g-shock-casioak-dj-willie' %}
-    {% render 'ecom-dj-willie-ld-vanilla-block' %}
+    {% render 'ecom-dj-willie-ld-vanilla-block' %}
 
   {% when 'tsuyosa-midnight-sky-concept' %}
     {% render 'ecom-tsuyosa-midnight-sky-ld-block' %}
 
   {% when 'time-is-money-concept' %}
     {% render 'ecom-time-is-money-ld-block' %}
-  
-  {%- else -%}
 
+  {% when 'timex-q-space-dunk' %}
+    {% render 'ecom-timex-q-space-dunk-ld-block' %}
+
+  {%- else -%}
 {% endcase %}
