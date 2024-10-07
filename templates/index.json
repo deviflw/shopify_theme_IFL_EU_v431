@@ -9,8 +9,8 @@
 */
 {
   "sections": {
-    "ecom_time_is_money_hp_banner_section_83pimy": {
-      "type": "ecom-time-is-money-hp-banner-section",
+    "ecom_timex_q_space_dunk_hp_banner_section_pnUciL": {
+      "type": "ecom-timex-q-space-dunk-hp-banner-section",
       "settings": {
       }
     },
@@ -21,7 +21,7 @@
     }
   },
   "order": [
-    "ecom_time_is_money_hp_banner_section_83pimy",
+    "ecom_timex_q_space_dunk_hp_banner_section_pnUciL",
     "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
   ]
 }
