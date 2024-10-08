@@ -995,6 +995,19 @@
               "icon": "las la-watch"
             }
           },
+          "menu_dmiygJ": {
+            "type": "menu",
+            "settings": {
+              "title": "Brands",
+              "url": "",
+              "open_link": "_self",
+              "menu": "brands",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": ""
+            }
+          },
           "menu_P8aC3n": {
             "type": "menu",
             "settings": {
@@ -1111,6 +1124,7 @@
         },
         "block_order": [
           "menu_DNtPeM",
+          "menu_dmiygJ",
           "menu_P8aC3n",
           "menu_XWMpYx",
           "menu_qqTpmb",
