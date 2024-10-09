@@ -14,14 +14,14 @@
       "settings": {
       }
     },
-    "ecom_iflw_no_vanilla_homepage_section_xGPrxK": {
-      "type": "ecom-iflw-no-vanilla-homepage-section",
+    "ecom_homepage_watch_brands_section_JiLdXV": {
+      "type": "ecom-homepage-watch-brands-section",
       "settings": {
       }
     }
   },
   "order": [
     "ecom_timex_q_space_dunk_hp_banner_section_pnUciL",
-    "ecom_iflw_no_vanilla_homepage_section_xGPrxK"
+    "ecom_homepage_watch_brands_section_JiLdXV"
   ]
 }
