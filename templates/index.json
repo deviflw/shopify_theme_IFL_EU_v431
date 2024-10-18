@@ -1,16 +1,16 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "ecom_timex_q_space_dunk_hp_banner_section_pnUciL": {
-      "type": "ecom-timex-q-space-dunk-hp-banner-section",
+    "ecom_wet_willie_hp_banner_section_9xG9Dk": {
+      "type": "ecom-wet-willie-hp-banner-section",
       "settings": {
       }
     },
@@ -21,7 +21,7 @@
     }
   },
   "order": [
-    "ecom_timex_q_space_dunk_hp_banner_section_pnUciL",
+    "ecom_wet_willie_hp_banner_section_9xG9Dk",
     "ecom_homepage_watch_brands_section_JiLdXV"
   ]
 }
