@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "purchase_code": "02022fd5-dee0-4780-b0a8-6101cc18cf72",
@@ -734,7 +734,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "brands",
-              "col": "3"
+              "col": "2"
             }
           },
           "cat_hmBL6x": {
@@ -761,7 +761,7 @@
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "3"
+              "col": "4"
             }
           },
           "cat_yWqJC7": {
@@ -784,7 +784,7 @@
               "item_rd": 0,
               "img_effect": "zoom",
               "b_effect": "none",
-              "image_ratio": "ratio1_1",
+              "image_ratio": "ratio2_3",
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
