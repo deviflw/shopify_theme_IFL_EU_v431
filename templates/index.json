@@ -9,8 +9,8 @@
  */
 {
   "sections": {
-    "ecom_wet_willie_hp_banner_section_9xG9Dk": {
-      "type": "ecom-wet-willie-hp-banner-section",
+    "ecom_arabian_night_hp_banner_section_C8f3Xr": {
+      "type": "ecom-arabian-night-hp-banner-section",
       "settings": {
       }
     },
@@ -21,7 +21,7 @@
     }
   },
   "order": [
-    "ecom_wet_willie_hp_banner_section_9xG9Dk",
+    "ecom_arabian_night_hp_banner_section_C8f3Xr",
     "ecom_homepage_watch_brands_section_JiLdXV"
   ]
 }
