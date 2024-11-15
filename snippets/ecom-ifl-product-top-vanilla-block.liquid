@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2024-08-14 07:42:40
+ At 2024-11-15 14:43:23
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -29,6 +29,7 @@
  * this.data.settings.product
  {% endcomment %}
  {% liquid
+ unless recommendations.performed
  if request.page_type != 'product' or product == blank
  assign selected_product = 'g-shock-casioak-full-metal-rainbow'
  if selected_product == blank or selected_product == '' or all_products[selected_product] == blank
@@ -40,6 +41,7 @@
  endif
  endif
  endif
+ endunless
  %}
  {%- if product != blank -%}
  {%- capture ec_form_id -%}product_form_{{ product.id }}_ecom-teffdehprf8{%- endcapture -%}
@@ -79,7 +81,7 @@
  {{ icon_breadcrumbs }}{{ collection.title | link_to: collection.url }}
  {%- else -%}
  {% for collection in product.collections %}
- {% if collection.handle == 'all' or collection.handle == 'frontpage' %}
+ {% if collection.handle == 'all' or collection.handle == 'frontpage' or collection.title == 'All' %}
  {% continue%}
  {% else %}
  {{ icon_breadcrumbs }}{{ collection.title | link_to: collection.url }}
@@ -137,6 +139,7 @@
  * this.data.settings.product
  {% endcomment %}
  {% liquid
+ unless recommendations.performed
  if request.page_type != 'product' or product == blank
  assign selected_product = 'g-shock-casioak-black-rainbow'
  if selected_product == blank or selected_product == '' or all_products[selected_product] == blank
@@ -148,6 +151,7 @@
  endif
  endif
  endif
+ endunless
  %}
  {%- if product != blank -%}
  {%- capture ec_form_id -%}product_form_{{ product.id }}_ecom-ktp8grn4df{%- endcapture -%}
@@ -215,11 +219,25 @@
  {% when 'image' %}
  {% continue %}
  {% when 'external_video'%}
- <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media---external-video ecom-product-single__media--full" data-position="{{media.position}}" style="padding-top: 56%;">
+ {% assign videoUrl = '' %}
+ {% for source in media.sources %}
+ {% if source.format == "mp4" %}
+ {% assign videoUrl = source.url %}
+ {% break %}
+ {% endif %}
+ {% endfor %}
+ <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media---external-video ecom-product-single__media--full" data-position="{{media.position}}" style="padding-top: 56%;" ecom-modal-source="{{videoUrl}}" ecom-modal='iframe'>
  {{ media | external_video_tag: image_size:'master' }}
  </div>
  {% when 'video' %}
- <div data-stopdrag="true" class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--video ecom-product-single__media--full ecom-swiper-no-swiping" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;">
+ {% assign videoUrl = '' %}
+ {% for source in media.sources %}
+ {% if source.format == "mp4" %}
+ {% assign videoUrl = source.url %}
+ {% break %}
+ {% endif %}
+ {% endfor %}
+ <div data-stopdrag="true" class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--video ecom-product-single__media--full ecom-swiper-no-swiping" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;" ecom-modal-source="{{videoUrl}}" ecom-modal='iframe'>
  {{ media | video_tag: image_size:'master', class: 'ecom-media-video', controls: undefined, autoplay: undefined, mute: undefined,loop: undefined }}
  <button class="ecom-product-single__media--play-control"
  type="button"
@@ -232,7 +250,7 @@
  </div>
  {% when 'model' %}
  <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-swiper-no-swiping ecom-product-single__media--model ecom-product-single__media--full" data-stopdrag="true" data-position="{{media.position}}">
- <div class="ecom-product-single__media--model-wrapper" style="padding-top: 100%">
+ <div class="ecom-product-single__media--model-wrapper">
  {{ media | model_viewer_tag: image_size:'master', reveal: 'interaction', toggleable: true, data-model-id: media.id }}
  </div>
  </div>
@@ -287,8 +305,10 @@
  {% for image in product.images %}
  {%if use_limit and forloop.index > limit_images%}{% break %}{% endif %}
  {% assign fetchpriority = 'low'%}
+ {% assign lazyload = 'low'%}
  {% if forloop.first %}
  {% assign fetchpriority = 'high'%}
+ {% assign lazyload = 'eager'%}
  {% endif %}
  {% assign img_ration = 1 | divided_by: image.aspect_ratio | times: 100 %}
  
@@ -301,7 +321,7 @@
  widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946',
  class: 'ecom-image-default'
  ,ecom-modal-source:img_master , ecom-modal:'image'
- ,loading: 'lazy'
+ ,loading: lazyload
  ,fetchpriority: fetchpriority
  ,alt: image.alt | escape
  }}
@@ -315,11 +335,25 @@
  {% when 'image' %}
  {% continue %}
  {% when 'external_video'%}
- <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media---external-video ecom-product-single__media--full" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;">
+ {% assign videoUrl = '' %}
+ {% for source in media.sources %}
+ {% if source.format == "mp4" %}
+ {% assign videoUrl = source.url %}
+ {% break %}
+ {% endif %}
+ {% endfor %}
+ <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media---external-video ecom-product-single__media--full" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;" ecom-modal-source="{{videoUrl}}" ecom-modal='iframe'>
  {{ media | external_video_tag: image_size:'master' }}
  </div>
  {% when 'video' %}
- <div data-stopdrag="true" class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--video ecom-product-single__media--full ecom-swiper-no-swiping" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;">
+ {% assign videoUrl = '' %}
+ {% for source in media.sources %}
+ {% if source.format == "mp4" %}
+ {% assign videoUrl = source.url %}
+ {% break %}
+ {% endif %}
+ {% endfor %}
+ <div data-stopdrag="true" class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-product-single__media--video ecom-product-single__media--full ecom-swiper-no-swiping" data-position="{{media.position}}" style="--img_padding: {{ media_ration | divided_by: img_padding }}%;--img_padding__tablet: {{ media_ration | divided_by: img_padding__tablet }}%;--img_padding__mobile: {{ media_ration | divided_by: img_padding__mobile }}%;" ecom-modal-source="{{videoUrl}}" ecom-modal='iframe'>
  {{ media | video_tag: image_size:'master', class: 'ecom-media-video', controls: undefined, autoplay: undefined, mute: undefined,loop: undefined }}
  
  <button class="ecom-product-single__media--play-control" type="button">
@@ -332,7 +366,7 @@
  </div>
  {% when 'model' %}
  <div class="ecom-product-single__media--image ecom-swiper-slide ecom-flex ecom-image-align- ecom-image-align---tablet ecom-image-align---mobile ecom-swiper-no-swiping ecom-product-single__media--model ecom-product-single__media--full" data-stopdrag="true" data-position="{{media.position}}">
- <div class="ecom-product-single__media--model-wrapper" style="padding-top: 100%">
+ <div class="ecom-product-single__media--model-wrapper">
  {{ media | model_viewer_tag: image_size:'master', reveal: 'interaction', toggleable: true, data-model-id: media.id }}
  </div>
  </div>
@@ -528,7 +562,11 @@
  </div>
 {% endif %}</div></div> <div class="ecom-block ecom-core core__block elmspace ecom-b7berml43qw iflw-waitlist-btn" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% if product.available == false %}
 <div style="margin-top: 25px; display: flex; gap: 15px;">
+ {% if product.handle == "maen-manhattan-graffiti" %}
+ <a class="klaviyo-bis-trigger" href="#">JOIN MAEN WAITLIST</a>
+ {% else %}
  <a class="klaviyo-bis-trigger" href="#">JOIN WAITLIST</a>
+ {% endif %}
  {% if product.tags contains "limited" or product.tags contains "Bespoke" %}
  <a class="button globo-open" data-id="NTE2MTc=" href="#NTE2MTc=" style="text-transform: uppercase; border: 2px solid #081820; color: #081820; background-color: transparent;">INQUIRE</a>
  {% endif %}
@@ -546,16 +584,17 @@
  <g>
  <path d="M485.743,85.333H26.257C11.815,85.333,0,97.148,0,111.589V400.41c0,14.44,11.815,26.257,26.257,26.257h459.487 c14.44,0,26.257-11.815,26.257-26.257V111.589C512,97.148,500.185,85.333,485.743,85.333z M475.89,105.024L271.104,258.626 c-3.682,2.802-9.334,4.555-15.105,4.529c-5.77,0.026-11.421-1.727-15.104-4.529L36.109,105.024H475.89z M366.5,268.761 l111.59,137.847c0.112,0.138,0.249,0.243,0.368,0.368H33.542c0.118-0.131,0.256-0.23,0.368-0.368L145.5,268.761 c3.419-4.227,2.771-10.424-1.464-13.851c-4.227-3.419-10.424-2.771-13.844,1.457l-110.5,136.501V117.332l209.394,157.046 c7.871,5.862,17.447,8.442,26.912,8.468c9.452-0.02,19.036-2.6,26.912-8.468l209.394-157.046v275.534L381.807,256.367 c-3.42-4.227-9.623-4.877-13.844-1.457C363.729,258.329,363.079,264.534,366.5,268.761z"></path>
  </g>
- </svg></span></div></a></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-j2z1494q6h" data-core-is="group"><div class="ecom-core ecom-group core__block ecom-3yivbwkozl8"> <div class="core__group--wrapper ecom-accordion__wrapper ecom-flex ecom-column ecom-w__full ecom__element ecom__accordion" data-r="" style=""><div class="core__group--items"><div id="ecom-zp51om5ifqr" class="core__group--item ecom-accordion__item ecom-item-active" data-id="ecom-zp51om5ifqr"><div class="ecom-accordion__title ecom-flex ecom-w__full ecom-al_center ecom-items ecom-item-active"><div class="ecom-accordion_nav--icon ecom-items--icon" style="order: 1;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M432 256C432 269.3 421.3 280 408 280h-160v160c0 13.25-10.75 24.01-24 24.01S200 453.3 200 440v-160h-160c-13.25 0-24-10.74-24-23.99C16 242.8 26.75 232 40 232h160v-160c0-13.25 10.75-23.99 24-23.99S248 58.75 248 72v160h160C421.3 232 432 242.8 432 256z"></path></svg></div><div class="ecom-accordion_nav--icon ecom-items--icon ecom-items-icon-active" style="order: 1;"><svg version="1.1" id="lni_lni-minus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve" fill="currentColor">
+ </svg></span></div></a></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-j2z1494q6h" data-core-is="group"><div class="ecom-core ecom-group core__block ecom-3yivbwkozl8"> <div class="core__group--wrapper ecom-accordion__wrapper ecom-flex ecom-column ecom-w__full ecom__element ecom__accordion" data-r="" style=""><div class="core__group--items"><div id="ecom-zp51om5ifqr" class="core__group--item ecom-accordion__item ecom-item-active ecom-item-group-init" data-id="ecom-zp51om5ifqr"><div class="ecom-accordion__title ecom-flex ecom-w__full ecom-al_center ecom-items ecom-item-active" data-target="#undefined"><div class="ecom-accordion_nav--icon ecom-items--icon" style="order: 1;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M432 256C432 269.3 421.3 280 408 280h-160v160c0 13.25-10.75 24.01-24 24.01S200 453.3 200 440v-160h-160c-13.25 0-24-10.74-24-23.99C16 242.8 26.75 232 40 232h160v-160c0-13.25 10.75-23.99 24-23.99S248 58.75 248 72v160h160C421.3 232 432 242.8 432 256z"></path></svg></div><div class="ecom-accordion_nav--icon ecom-items--icon ecom-items-icon-active" style="order: 1;"><svg version="1.1" id="lni_lni-minus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve" fill="currentColor">
 <g>
 	<path d="M61,33.8H3c-1,0-1.8-0.8-1.8-1.8c0-1,0.8-1.8,1.8-1.8h58c1,0,1.8,0.8,1.8,1.8C62.8,33,62,33.8,61,33.8z"></path>
 </g>
-</svg></div><div class="ecom-accordion_wrapper-info ecom-flex ecom-al_center"><span class="ecom-items--icon ecom-accordion_icon-title"></span><h3 class="ecom-accordion__title-text ecom-items--text">Product description</h3></div></div><div class="core__group--body ecom-accordion__body">
+</svg></div><div class="ecom-accordion_wrapper-info ecom-flex ecom-al_center"><span class="ecom-items--icon ecom-accordion_icon-title" data-image="false"></span><h3 class="ecom-accordion__title-text ecom-items--text">Product description</h3></div></div><div class="core__group--body ecom-accordion__body">
  {% comment %}
  // Reactive
  * this.data.settings.product
  {% endcomment %}
  {% liquid
+ unless recommendations.performed
  if request.page_type != 'product' or product == blank
  assign selected_product = 'g-shock-casioak-full-metal-rainbow'
  if selected_product == blank or selected_product == '' or all_products[selected_product] == blank
@@ -567,6 +606,7 @@
  endif
  endif
  endif
+ endunless
  %}
  {%- if product != blank -%}
  {%- capture ec_form_id -%}product_form_{{ product.id }}_ecom-zp51om5ifqr{%- endcapture -%}
@@ -581,15 +621,15 @@
  {%- endform -%}
  {% assign ecom_has_variant_picker = false %}
  {%- endif -%}
- </div></div><div id="ecom-19u8v0w2vtz" class="core__group--item ecom-accordion__item" data-id="ecom-19u8v0w2vtz"><div class="ecom-accordion__title ecom-flex ecom-w__full ecom-al_center ecom-items"><div class="ecom-accordion_nav--icon ecom-items--icon" style="order: 1;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M432 256C432 269.3 421.3 280 408 280h-160v160c0 13.25-10.75 24.01-24 24.01S200 453.3 200 440v-160h-160c-13.25 0-24-10.74-24-23.99C16 242.8 26.75 232 40 232h160v-160c0-13.25 10.75-23.99 24-23.99S248 58.75 248 72v160h160C421.3 232 432 242.8 432 256z"></path></svg></div><div class="ecom-accordion_nav--icon ecom-items--icon ecom-items-icon-active" style="order: 1;"><svg version="1.1" id="lni_lni-minus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve" fill="currentColor">
+ </div></div><div id="ecom-19u8v0w2vtz" class="core__group--item ecom-accordion__item" data-id="ecom-19u8v0w2vtz"><div class="ecom-accordion__title ecom-flex ecom-w__full ecom-al_center ecom-items" data-target="#undefined"><div class="ecom-accordion_nav--icon ecom-items--icon" style="order: 1;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M432 256C432 269.3 421.3 280 408 280h-160v160c0 13.25-10.75 24.01-24 24.01S200 453.3 200 440v-160h-160c-13.25 0-24-10.74-24-23.99C16 242.8 26.75 232 40 232h160v-160c0-13.25 10.75-23.99 24-23.99S248 58.75 248 72v160h160C421.3 232 432 242.8 432 256z"></path></svg></div><div class="ecom-accordion_nav--icon ecom-items--icon ecom-items-icon-active" style="order: 1;"><svg version="1.1" id="lni_lni-minus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve" fill="currentColor">
 <g>
 	<path d="M61,33.8H3c-1,0-1.8-0.8-1.8-1.8c0-1,0.8-1.8,1.8-1.8h58c1,0,1.8,0.8,1.8,1.8C62.8,33,62,33.8,61,33.8z"></path>
 </g>
-</svg></div><div class="ecom-accordion_wrapper-info ecom-flex ecom-al_center"><span class="ecom-items--icon ecom-accordion_icon-title"></span><h3 class="ecom-accordion__title-text ecom-items--text">Specification</h3></div></div><div class="core__group--body ecom-accordion__body"><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-6jh7vxibn87" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% render 'iflw-product-attributes-left' %}</div></div> </div></div></div></div><div id="ecom-cvgamjizdwb" class="core__group--item ecom-accordion__item" data-id="ecom-cvgamjizdwb"><div class="ecom-accordion__title ecom-flex ecom-w__full ecom-al_center ecom-items"><div class="ecom-accordion_nav--icon ecom-items--icon" style="order: 1;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M432 256C432 269.3 421.3 280 408 280h-160v160c0 13.25-10.75 24.01-24 24.01S200 453.3 200 440v-160h-160c-13.25 0-24-10.74-24-23.99C16 242.8 26.75 232 40 232h160v-160c0-13.25 10.75-23.99 24-23.99S248 58.75 248 72v160h160C421.3 232 432 242.8 432 256z"></path></svg></div><div class="ecom-accordion_nav--icon ecom-items--icon ecom-items-icon-active" style="order: 1;"><svg version="1.1" id="lni_lni-minus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve" fill="currentColor">
+</svg></div><div class="ecom-accordion_wrapper-info ecom-flex ecom-al_center"><span class="ecom-items--icon ecom-accordion_icon-title" data-image="false"></span><h3 class="ecom-accordion__title-text ecom-items--text">Specification</h3></div></div><div class="core__group--body ecom-accordion__body"><div class="core__blocks" index="1"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-6jh7vxibn87" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% render 'iflw-product-attributes-left' %}</div></div> </div></div></div></div><div id="ecom-cvgamjizdwb" class="core__group--item ecom-accordion__item" data-id="ecom-cvgamjizdwb"><div class="ecom-accordion__title ecom-flex ecom-w__full ecom-al_center ecom-items" data-target="#undefined"><div class="ecom-accordion_nav--icon ecom-items--icon" style="order: 1;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M432 256C432 269.3 421.3 280 408 280h-160v160c0 13.25-10.75 24.01-24 24.01S200 453.3 200 440v-160h-160c-13.25 0-24-10.74-24-23.99C16 242.8 26.75 232 40 232h160v-160c0-13.25 10.75-23.99 24-23.99S248 58.75 248 72v160h160C421.3 232 432 242.8 432 256z"></path></svg></div><div class="ecom-accordion_nav--icon ecom-items--icon ecom-items-icon-active" style="order: 1;"><svg version="1.1" id="lni_lni-minus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve" fill="currentColor">
 <g>
 	<path d="M61,33.8H3c-1,0-1.8-0.8-1.8-1.8c0-1,0.8-1.8,1.8-1.8h58c1,0,1.8,0.8,1.8,1.8C62.8,33,62,33.8,61,33.8z"></path>
 </g>
-</svg></div><div class="ecom-accordion_wrapper-info ecom-flex ecom-al_center"><span class="ecom-items--icon ecom-accordion_icon-title"></span><h3 class="ecom-accordion__title-text ecom-items--text">Shipping &amp; Returns</h3></div></div><div class="core__group--body ecom-accordion__body"><div class="core__blocks" index="2"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-v3exe8aswdr" data-core-is="block"><div class="ecom-element ecom-shopify ecom-shopify__global-block" deep="2"><div class="ecom-element ecom-shopify ecom-shopify__global-block__wrapper">
+</svg></div><div class="ecom-accordion_wrapper-info ecom-flex ecom-al_center"><span class="ecom-items--icon ecom-accordion_icon-title" data-image="false"></span><h3 class="ecom-accordion__title-text ecom-items--text">Shipping &amp; Returns</h3></div></div><div class="core__group--body ecom-accordion__body"><div class="core__blocks" index="2"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-v3exe8aswdr" data-core-is="block"><div class="ecom-element ecom-shopify ecom-shopify__global-block" deep="2"><div class="ecom-element ecom-shopify ecom-shopify__global-block__wrapper">
  
  {%- render 'ecom-shipping-policy-vanilla-block' -%}
  
