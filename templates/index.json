@@ -9,21 +9,21 @@
  */
 {
   "sections": {
-    "ecom_prx_who_cares_hp_banner_section_39CPVE": {
-      "type": "ecom-prx-who-cares-hp-banner-section",
-      "settings": {}
-    },
-    "ecom_homepage_watch_brands_section_JiLdXV": {
-      "type": "ecom-homepage-watch-brands-section",
+    "ecom_bw_whocares_hp_slider_section_6QcMEL": {
+      "type": "ecom-bw-whocares-hp-slider-section",
       "settings": {}
     },
     "ecom_manhattan_homepage_teaser_section_RzXMan": {
       "type": "ecom-manhattan-homepage-teaser-section",
       "settings": {}
+    },
+    "ecom_homepage_watch_brands_section_JiLdXV": {
+      "type": "ecom-homepage-watch-brands-section",
+      "settings": {}
     }
   },
   "order": [
-    "ecom_prx_who_cares_hp_banner_section_39CPVE",
+    "ecom_bw_whocares_hp_slider_section_6QcMEL",
     "ecom_manhattan_homepage_teaser_section_RzXMan",
     "ecom_homepage_watch_brands_section_JiLdXV"
   ]
