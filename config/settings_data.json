@@ -461,6 +461,19 @@
       "header-inline": {
         "type": "header-inline",
         "blocks": {
+          "base_8tVrPY": {
+            "type": "base",
+            "settings": {
+              "title": "BLACK WEEK",
+              "url": "shopify://collections/black-week",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": true,
+              "cl": "{{ shop.brand.colors.secondary[0].background }}",
+              "lb": "70% off",
+              "lb_cl": "{{ shop.brand.colors.secondary[1].background }}"
+            }
+          },
           "mega_UmYR4B": {
             "type": "mega",
             "settings": {
@@ -536,6 +549,7 @@
           }
         },
         "block_order": [
+          "base_8tVrPY",
           "mega_UmYR4B",
           "mega_Ey7f4e",
           "mega_4DPYEN",
@@ -1101,18 +1115,15 @@
           },
           "mb_nav-4": {
             "type": "wis",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-5": {
             "type": "sea",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-6": {
             "type": "acc",
-            "settings": {
-            }
+            "settings": {}
           },
           "help_G8Gwkw": {
             "type": "help",
@@ -1137,21 +1148,18 @@
           "mb_nav-6",
           "help_G8Gwkw"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "mb_cat": {
         "type": "mb_cat",
-        "settings": {
-        }
+        "settings": {}
       },
       "mini_cart": {
         "type": "mini_cart",
         "blocks": {
           "mini_cart-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "mini_cart-3": {
             "type": "btnc",
@@ -1256,15 +1264,11 @@
               "btn_txt2": "3",
               "button_color_payment": "dark",
               "show_gift_card_recipient": true,
-              "product_list": [
-
-              ],
+              "product_list": [],
               "show_product_current": true,
               "qty_val": "0",
               "advance_label": "Choose style",
-              "advance_pr_list": [
-
-              ]
+              "advance_pr_list": []
             }
           },
           "main-qv-4": {
@@ -1373,8 +1377,7 @@
       },
       "search-hidden": {
         "type": "search-hidden",
-        "settings": {
-        }
+        "settings": {}
       },
       "login-sidebar": {
         "type": "login-sidebar",
@@ -1447,17 +1450,14 @@
         "blocks": {
           "main-wishlist-0": {
             "type": "layout",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
           "main-wishlist-0"
         ],
         "settings": {
-          "product_list": [
-
-          ],
+          "product_list": [],
           "product_des": "1",
           "show_vendor": false,
           "use_cdt": false,
@@ -1500,8 +1500,7 @@
         "blocks": {
           "main-compare-0": {
             "type": "basic",
-            "settings": {
-            }
+            "settings": {}
           },
           "main-compare-1": {
             "type": "availability",
@@ -1659,13 +1658,11 @@
       },
       "popups": {
         "type": "popups",
-        "settings": {
-        }
+        "settings": {}
       },
       "t4s_custom_color": {
         "type": "t4s_custom_color",
-        "settings": {
-        }
+        "settings": {}
       },
       "main-qs": {
         "type": "main-qs",
@@ -1750,41 +1747,33 @@
         "block_order": [
           "14770600-c9ef-4dc1-afbb-0efa120a1bd4"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "extras": {
         "type": "extras",
-        "settings": {
-        }
+        "settings": {}
       },
       "ecom-iflw-no-vanilla-footer-footer": {
         "type": "ecom-iflw-no-vanilla-footer-footer",
-        "settings": {
-        }
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "21474836472147483647": {
         "type": "shopify://apps/ecomposer-landing-page-builder/blocks/app-embed/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "16682838546324092737": {
         "type": "shopify://apps/flash-search-filter-search/blocks/css-embed/73188222-8264-4803-bb3f-c9e181fa7d08",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "9375319903025652991": {
         "type": "shopify://apps/flash-search-filter-search/blocks/js-embed/73188222-8264-4803-bb3f-c9e181fa7d08",
@@ -1797,14 +1786,12 @@
       "6279071938380501511": {
         "type": "shopify://apps/powerful-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "9468172321995857178": {
         "type": "shopify://apps/qikify-upsell-gift/blocks/app-embed/2e94b962-8172-4839-8ad9-7837eb8b017a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14348518947459141286": {
         "type": "shopify://apps/oxilayer-invoice/blocks/order_view_download_invoice/bfc5c46a-c89f-49e7-a859-28fc2c844936",
@@ -1828,8 +1815,7 @@
       "18128612654622612671": {
         "type": "shopify://apps/selectors/blocks/app-embed/a005a4a7-4aa2-4155-9c2b-0ab41acbf99c",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   }
