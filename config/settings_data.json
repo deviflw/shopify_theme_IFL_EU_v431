@@ -461,19 +461,6 @@
       "header-inline": {
         "type": "header-inline",
         "blocks": {
-          "base_8tVrPY": {
-            "type": "base",
-            "settings": {
-              "title": "BLACK WEEK",
-              "url": "shopify://collections/black-week",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": true,
-              "cl": "{{ shop.brand.colors.secondary[0].background }}",
-              "lb": "70% off",
-              "lb_cl": "{{ shop.brand.colors.secondary[1].background }}"
-            }
-          },
           "mega_UmYR4B": {
             "type": "mega",
             "settings": {
@@ -549,7 +536,6 @@
           }
         },
         "block_order": [
-          "base_8tVrPY",
           "mega_UmYR4B",
           "mega_Ey7f4e",
           "mega_4DPYEN",
@@ -996,19 +982,6 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
-          "menu_CJdqVF": {
-            "type": "menu",
-            "settings": {
-              "title": "BLACK WEEK",
-              "url": "shopify://collections/black-week",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "up to 70% off",
-              "lb_cl": "{{ shop.brand.colors.secondary[1].background }}",
-              "icons_op": "2",
-              "icon": ""
-            }
-          },
           "menu_DNtPeM": {
             "type": "menu",
             "settings": {
@@ -1147,7 +1120,6 @@
           }
         },
         "block_order": [
-          "menu_CJdqVF",
           "menu_DNtPeM",
           "menu_dmiygJ",
           "menu_P8aC3n",
