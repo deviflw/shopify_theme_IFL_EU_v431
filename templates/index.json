@@ -9,17 +9,17 @@
  */
 {
   "sections": {
-    "ecom_homepage_watch_brands_section_JiLdXV": {
-      "type": "ecom-homepage-watch-brands-section",
+    "ecom_nothern_lights_hp_slider_section_miY4cW": {
+      "type": "ecom-nothern-lights-hp-slider-section",
       "settings": {}
     },
-    "ecom_bw_2024_slider_section_xK7CEx": {
-      "type": "ecom-bw-2024-slider-section",
+    "ecom_homepage_watch_brands_section_JiLdXV": {
+      "type": "ecom-homepage-watch-brands-section",
       "settings": {}
     }
   },
   "order": [
-    "ecom_bw_2024_slider_section_xK7CEx",
+    "ecom_nothern_lights_hp_slider_section_miY4cW",
     "ecom_homepage_watch_brands_section_JiLdXV"
   ]
 }
