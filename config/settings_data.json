@@ -1006,7 +1006,7 @@
               "lb": "up to 50% off",
               "lb_cl": "{{ shop.brand.colors.secondary[1].background }}",
               "icons_op": "2",
-              "icon": "las la-chair"
+              "icon": ""
             }
           },
           "menu_DNtPeM": {
