@@ -9,8 +9,8 @@
  */
 {
   "sections": {
-    "ecom_nothern_lights_hp_slider_section_miY4cW": {
-      "type": "ecom-nothern-lights-hp-slider-section",
+    "ecom_xmas_nl_hp_slider_section_hbDHBk": {
+      "type": "ecom-xmas-nl-hp-slider-section",
       "settings": {}
     },
     "ecom_homepage_watch_brands_section_JiLdXV": {
@@ -19,7 +19,7 @@
     }
   },
   "order": [
-    "ecom_nothern_lights_hp_slider_section_miY4cW",
+    "ecom_xmas_nl_hp_slider_section_hbDHBk",
     "ecom_homepage_watch_brands_section_JiLdXV"
   ]
 }
