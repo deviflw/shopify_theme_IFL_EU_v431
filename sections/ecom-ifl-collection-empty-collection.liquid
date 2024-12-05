@@ -1,0 +1,73 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ At 2024-12-05 08:12:23
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.6" /><noscript><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.6" /></noscript>
+{%capture section_id %}ecom-ifl-collection-empty-collection{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+{{'ecom-6751601ef2edbef2500b5361.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-6751601ef2edbef2500b5361.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="6751601ef2edbef2500b5361";
+ window.EComposer.TEMPLATE = {"template_id":"6751601ef2edbef2500b5361","title":"IFL Collection Empty","type":"collection","slug":"ecom-ifl-collection-empty","plan_id":6};
+ </script>
+<div class="ecom-builder" id="ecom-ifl-collection-empty"><div class="ecom-sections" data-section-id="{{section.id}}">
+ {% comment %}
+ // Reactive
+ * this.data.settings.collection
+ {% endcomment %}
+ {% liquid
+ if request.page_type != 'collection' or collection == blank
+ assign selected_collection = 'robot'
+ if selected_collection == blank or selected_collection == '' or collections[selected_collection] == blank
+ assign collection = collections.all
+ else
+ assign collection = collections[selected_collection]
+ if collection.id == blank
+ assign collection = collections.all
+ endif
+ endif
+ endif
+ %}
+ <section class="ecom-row ecom-core ecom-section ecom-4o6fx7wf90c" data-id="ecom-4o6fx7wf90c" data-notice-content="This image is for preview only" style="z-index: inherit;"><div data-deep="1" class="core__row--columns core__row--full"><div class="ecom-column ecom-core core__column--first core__column--last ecom-kejqs004rwg"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-1mwtsd4yo2ph" data-core-is="block"><div class="ecom-element ecom-collection ecom-collection__banner" deep="1"><div class="ecom-collection__banner-wrapper" style="background-image: url(&quot;
+ {%- capture default_img -%}https://cdn.shopify.com/s/files/1/0650/5709/5857/files/Iflw-collection_banner_default.jpg?v=1712503132{%- endcapture -%}
+ {%- assign banner = 'https://cdn2.shopify.com/s/files/1/0121/5945/1236/files/backpack.svg?7273' -%}
+ {%- if collection.featured_image -%}
+ {%- assign banner = collection.featured_image | img_url: 'master' -%}
+ {%- elsif default_img -%}
+ {%- assign banner = default_img -%}
+ {%- endif -%}
+ {{ banner }}&quot;);"><h1 class="ecom-collection__banner-heading">{{ collection.title }}</h1><div class="ecom-collection__banner-paragraph">{{ collection.description }}</div><div class="ecom-overlay"></div></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+ <section class="ecom-row ecom-core ecom-section ecom-3t72ph51qh7" data-id="ecom-3t72ph51qh7" data-notice-content="This image is for preview only" style="z-index: inherit;"><div data-deep="1" class="core__row--columns core__row--full"><div class="ecom-column ecom-core core__column--first core__column--last ecom-xgburpyc09l"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-id8u5ojl1x" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="1">{% render 'iflw-seo' %}</div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section><section class="ecom-row ecom-core ecom-section ecom-p659wa4vhj" data-id="ecom-p659wa4vhj" data-notice-content="This image is for preview only" style="z-index: inherit;"><div data-deep="1" class="core__row--columns core__row--full"><div class="ecom-column ecom-core core__column--first core__column--last ecom-jpcz6ueql9"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-9izu6j8xrxw" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="1">{% render 'iflw-collection-disclaimer' %}</div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section><section class="ecom-row ecom-core ecom-section ecom-8mouvgkt2da" data-id="ecom-8mouvgkt2da" data-notice-content="This image is for preview only" style="z-index: inherit;"><div data-deep="1" class="core__row--columns core__row--full"><div class="ecom-column ecom-core core__column--first core__column--last ecom-kwlfqskebkc"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-8244knt2zk9" data-core-is="block"><div class="ecom-element ecom-shopify ecom-shopify__global-block" deep="1"><div class="ecom-element ecom-shopify ecom-shopify__global-block__wrapper">
+ 
+ {%- render 'ecom-collections-slider-block' -%}
+ 
+ </div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+</div></div>{% capture ecom_google_snippet %}{% render 'ecom_google_snippet' %}{% endcapture %}{% unless ecom_google_snippet contains 'Liquid error' %}{{ ecom_google_snippet }}{% endunless %}
+{% schema %}
+{
+ "name": "IFL Collection Empty",
+ "locales": {},
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n Please don't add Shopify sections to EComposer's page in the theme customize. If you do this, Shopify sections will be deleted when you republish your page in EComposer\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/ecomposer.app\/shop?open_builder=1&page=collection&id=6751601ef2edbef2500b5361&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ]
+}
+{% endschema %}
