@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2024-11-25 17:23:54
+ At 2024-12-12 09:44:16
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -483,7 +483,7 @@
  <div class="ecom-product-single__price--badges">
  {%- assign savings = target.compare_at_price | minus: target.price | times: 100.0 | divided_by: target.compare_at_price | round -%}
  
- <span class="ecom-product-single__price--badges-sale" data-have-sale="{%- unless target.compare_at_price == nil or target.compare_at_price <= target.price or target.available != true -%}true{%endunless%}" data-text=" Sale" data-sale="{{savings}}" data-type="percent" style="{%- unless target.compare_at_price == nil or target.compare_at_price <= target.price or target.available != true -%} display: none;{%endunless%}">
+ <span class="ecom-product-single__price--badges-sale" data-have-sale="{%- unless target.compare_at_price == nil or target.compare_at_price <= target.price or target.available != true -%}true{%endunless%}" data-text=" Sale" data-sale="{{savings}}" data-type="percent" style="{%- unless target.compare_at_price == nil or target.compare_at_price <= target.price or target.available != true -%} display: none;{% endunless %}">
  Sale
  </span>
  <span class="ecom-product-single__price--badges-sold-out" {% if target.available %} style="display:none" {% endif %}>
@@ -500,7 +500,7 @@
  </div>
  </div></div><div class="ecom-product-single-afterpay">
  
- </div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-mt3hai88u8" data-core-is="block"><div class="ecom__element element__spacer ecom-element" deep="2"><div class="ecom__element-spacer"><div class="ecom__element-spacing"></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-7l0pfp7ejn5 iflw-stock" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__inventory" deep="2"><div class="ecom-product-single__inventory-wrapper"><div class="ecom-product-single__inventory-container">
+ </div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-mt3hai88u8" data-core-is="block"><div class="ecom__element element__spacer ecom-element" deep="2"><div class="ecom__element-spacer"><div class="ecom__element-spacing"></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-7l0pfp7ejn5 iflw-stock" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__inventory" deep="2"><div class="ecom-product-single__inventory-wrapper"><div class="ecom-product-single__inventory-container"><span class="ecom-product-single__inventory-icon"></span><div class="ecom-product-single__inventory-content">
  {%-liquid
  if use_variant
  assign target = product.selected_or_first_available_variant
@@ -529,7 +529,7 @@
  >
  In stock. Ready to ship.
  </p>
- </div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-wpvs02hslg" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% comment %} Product available message {% endcomment %}
+ </div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-wpvs02hslg" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% comment %} Product available message {% endcomment %}
 {% if stock %}
  <div class="iflw-stock-meta">
  {{ product.metafields.custom.stock_message }}
@@ -561,11 +561,7 @@
  </div>
 {% endif %}</div></div> <div class="ecom-block ecom-core core__block elmspace ecom-b7berml43qw iflw-waitlist-btn" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% if product.available == false %}
 <div style="margin-top: 25px; display: flex; gap: 15px;">
- {% if product.handle == "maen-manhattan-graffiti" %}
- <a class="klaviyo-bis-trigger" href="#">JOIN MAEN WAITLIST</a>
- {% else %}
  <a class="klaviyo-bis-trigger" href="#">JOIN WAITLIST</a>
- {% endif %}
  {% if product.tags contains "limited" or product.tags contains "Bespoke" %}
  <a class="button globo-open" data-id="NTE2MTc=" href="#NTE2MTc=" style="text-transform: uppercase; border: 2px solid #081820; color: #081820; background-color: transparent;">INQUIRE</a>
  {% endif %}
@@ -610,7 +606,7 @@
  {%- if product != blank -%}
  {%- capture ec_form_id -%}product_form_{{ product.id }}_ecom-zp51om5ifqr{%- endcapture -%}
  {%- form 'product', product, id: ec_form_id, class: "ecom-product-form ecom-product-form--single ecom-click", product_id: product.id, data-product_id: product.id,data-product-id: product.id, data-handle: product.handle-%}
- <div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-dlz1i0xzxbn" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__description" deep="2"><div class="ecom-product-single__description-wrapper"><div class="ecom-product-single__description-container" data-show-type="full"><div class="ecom-product-single__description--paragraph" style="max-height: var(--ecom-description-height);">{{product.description}}</div></div></div></div></div> </div></div>
+ <div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-dlz1i0xzxbn" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__description" deep="2"><div class="ecom-product-single__description-wrapper"><div class="ecom-product-single__description-container" data-show-type="full"><div class="ecom-product-single__description--paragraph"><div class="ecom-html-des ecom-view-more-enable" style="max-height: var(--ecom-description-height);">{{product.description}}</div></div></div></div></div></div> </div></div>
  {% unless ecom_has_variant_picker %}
  <input type="hidden" name="id" value="{{product.selected_or_first_available_variant.id}}" />
  <script type="application/json" id="product-json-{{product.id}}-ecom-zp51om5ifqr">
