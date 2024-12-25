@@ -461,19 +461,6 @@
       "header-inline": {
         "type": "header-inline",
         "blocks": {
-          "base_iQEYtL": {
-            "type": "base",
-            "settings": {
-              "title": "CELEBRATE",
-              "url": "shopify://collections/celebrate",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "50% off",
-              "lb_cl": "{{ shop.brand.colors.secondary[1].background }}"
-            }
-          },
           "mega_UmYR4B": {
             "type": "mega",
             "settings": {
@@ -549,7 +536,6 @@
           }
         },
         "block_order": [
-          "base_iQEYtL",
           "mega_UmYR4B",
           "mega_Ey7f4e",
           "mega_4DPYEN",
@@ -996,19 +982,6 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
-          "menu_JnJiky": {
-            "type": "menu",
-            "settings": {
-              "title": "Celebrate",
-              "url": "shopify://collections/celebrate",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "up to 50% off",
-              "lb_cl": "{{ shop.brand.colors.secondary[1].background }}",
-              "icons_op": "2",
-              "icon": ""
-            }
-          },
           "menu_DNtPeM": {
             "type": "menu",
             "settings": {
@@ -1147,7 +1120,6 @@
           }
         },
         "block_order": [
-          "menu_JnJiky",
           "menu_DNtPeM",
           "menu_dmiygJ",
           "menu_P8aC3n",
