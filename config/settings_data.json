@@ -470,7 +470,7 @@
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
-              "lb": "50% ogg",
+              "lb": "50% off",
               "lb_cl": "{{ shop.brand.colors.secondary[1].background }}"
             }
           },
