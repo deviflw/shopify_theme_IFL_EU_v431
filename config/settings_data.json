@@ -996,6 +996,19 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
+          "menu_tjHLPD": {
+            "type": "menu",
+            "settings": {
+              "title": "CELEBRATE",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "up to 50% off",
+              "lb_cl": "{{ shop.brand.colors.secondary[1].background }}",
+              "icons_op": "2",
+              "icon": ""
+            }
+          },
           "menu_DNtPeM": {
             "type": "menu",
             "settings": {
@@ -1134,6 +1147,7 @@
           }
         },
         "block_order": [
+          "menu_tjHLPD",
           "menu_DNtPeM",
           "menu_dmiygJ",
           "menu_P8aC3n",
