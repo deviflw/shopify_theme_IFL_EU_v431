@@ -1000,7 +1000,7 @@
             "type": "menu",
             "settings": {
               "title": "CELEBRATE",
-              "url": "",
+              "url": "shopify://collections/celebrate",
               "open_link": "_self",
               "menu": "",
               "lb": "up to 50% off",
