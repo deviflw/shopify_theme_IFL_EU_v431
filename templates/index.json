@@ -9,8 +9,8 @@
  */
 {
   "sections": {
-    "ecom_prx_gold_surfer_hp_banner_section_wfXG9Q": {
-      "type": "ecom-prx-gold-surfer-hp-banner-section",
+    "ecom_popeye_hp_banner_section_BigteE": {
+      "type": "ecom-popeye-hp-banner-section",
       "settings": {}
     },
     "ecom_homepage_watch_brands_xmas_section_fk78zn": {
@@ -23,7 +23,7 @@
     }
   },
   "order": [
-    "ecom_prx_gold_surfer_hp_banner_section_wfXG9Q",
+    "ecom_popeye_hp_banner_section_BigteE",
     "ecom_homepage_watch_brands_xmas_section_fk78zn",
     "ecom_homepage_collections_section_QJUzUz"
   ]
