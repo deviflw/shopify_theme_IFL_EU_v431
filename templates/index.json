@@ -13,8 +13,8 @@
       "type": "ecom-grendizer-hp-banner-section",
       "settings": {}
     },
-    "ecom_homepage_watch_brands_xmas_section_fk78zn": {
-      "type": "ecom-homepage-watch-brands-xmas-section",
+    "ecom_homepage_watch_brands_acc_section_D8XWdn": {
+      "type": "ecom-homepage-watch-brands-acc-section",
       "settings": {}
     },
     "ecom_homepage_collections_section_QJUzUz": {
@@ -24,7 +24,7 @@
   },
   "order": [
     "ecom_grendizer_hp_banner_section_wgrgzC",
-    "ecom_homepage_watch_brands_xmas_section_fk78zn",
+    "ecom_homepage_watch_brands_acc_section_D8XWdn",
     "ecom_homepage_collections_section_QJUzUz"
   ]
 }
