@@ -9,8 +9,8 @@
  */
 {
   "sections": {
-    "ecom_grendizer_hp_banner_section_wgrgzC": {
-      "type": "ecom-grendizer-hp-banner-section",
+    "ecom_twin_serpents_hp_banner_section_JGxfmE": {
+      "type": "ecom-twin-serpents-hp-banner-section",
       "settings": {}
     },
     "ecom_homepage_watch_brands_acc_section_D8XWdn": {
@@ -23,7 +23,7 @@
     }
   },
   "order": [
-    "ecom_grendizer_hp_banner_section_wgrgzC",
+    "ecom_twin_serpents_hp_banner_section_JGxfmE",
     "ecom_homepage_watch_brands_acc_section_D8XWdn",
     "ecom_homepage_collections_section_QJUzUz"
   ]
