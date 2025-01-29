@@ -9,25 +9,25 @@
  */
 {
   "sections": {
-    "ecom_val_gold_who_cares_hp_banner_section_nCkMk7": {
-      "type": "ecom-val-gold-who-cares-hp-banner-section",
+    "ecom_prx_gold_val_hp_slider_section_r33kwt": {
+      "type": "ecom-prx-gold-val-hp-slider-section",
       "settings": {}
     },
     "ecom_homepage_watch_brands_val_section_Gqn7tX": {
       "type": "ecom-homepage-watch-brands-val-section",
       "settings": {}
     },
-    "ecom_homepage_collections_section_QJUzUz": {
-      "type": "ecom-homepage-collections-section",
-      "settings": {}
-    },
     "ecom_homepage_watch_collections_section_MB8Xck": {
       "type": "ecom-homepage-watch-collections-section",
+      "settings": {}
+    },
+    "ecom_homepage_collections_section_QJUzUz": {
+      "type": "ecom-homepage-collections-section",
       "settings": {}
     }
   },
   "order": [
-    "ecom_val_gold_who_cares_hp_banner_section_nCkMk7",
+    "ecom_prx_gold_val_hp_slider_section_r33kwt",
     "ecom_homepage_watch_brands_val_section_Gqn7tX",
     "ecom_homepage_watch_collections_section_MB8Xck",
     "ecom_homepage_collections_section_QJUzUz"
