@@ -463,10 +463,9 @@
         "blocks": {
           "base_JpxQJc": {
             "type": "base",
-            "disabled": true,
             "settings": {
-              "title": "CELEBRATE",
-              "url": "shopify://collections/celebrate",
+              "title": "VALENTINES",
+              "url": "shopify://collections/valentines",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -999,10 +998,9 @@
         "blocks": {
           "menu_tjHLPD": {
             "type": "menu",
-            "disabled": true,
             "settings": {
-              "title": "CELEBRATE",
-              "url": "shopify://collections/celebrate",
+              "title": "VALENTINES",
+              "url": "shopify://collections/valentines",
               "open_link": "_self",
               "menu": "",
               "lb": "up to 50% off",
