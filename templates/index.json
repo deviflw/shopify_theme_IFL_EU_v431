@@ -9,8 +9,8 @@
  */
 {
   "sections": {
-    "ecom_japan_val_hp_slider_section_VeyHkJ": {
-      "type": "ecom-japan-val-hp-slider-section",
+    "ecom_snake_hp_slider_section_yJYxpH": {
+      "type": "ecom-snake-hp-slider-section",
       "settings": {}
     },
     "ecom_homepage_watch_brands_val_section_Gqn7tX": {
@@ -27,7 +27,7 @@
     }
   },
   "order": [
-    "ecom_japan_val_hp_slider_section_VeyHkJ",
+    "ecom_snake_hp_slider_section_yJYxpH",
     "ecom_homepage_watch_brands_val_section_Gqn7tX",
     "ecom_homepage_watch_collections_section_MB8Xck",
     "ecom_homepage_collections_section_QJUzUz"
