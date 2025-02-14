@@ -463,6 +463,7 @@
         "blocks": {
           "base_JpxQJc": {
             "type": "base",
+            "disabled": true,
             "settings": {
               "title": "VALENTINES",
               "url": "shopify://collections/valentines",
@@ -998,6 +999,7 @@
         "blocks": {
           "menu_tjHLPD": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "VALENTINES",
               "url": "shopify://collections/valentines",
