@@ -9,8 +9,12 @@
  */
 {
   "sections": {
-    "ecom_micromilspec_hp_banner_section_HBqz3y": {
-      "type": "ecom-micromilspec-hp-banner-section",
+    "ecom_tsuyosa_wc_hp_slide_section_pTC8bE": {
+      "type": "ecom-tsuyosa-wc-hp-slide-section",
+      "settings": {}
+    },
+    "ecom_homepage_watch_brands_acc_section_GTTniq": {
+      "type": "ecom-homepage-watch-brands-acc-section",
       "settings": {}
     },
     "ecom_homepage_watch_collections_section_MB8Xck": {
@@ -20,14 +24,10 @@
     "ecom_homepage_collections_section_QJUzUz": {
       "type": "ecom-homepage-collections-section",
       "settings": {}
-    },
-    "ecom_homepage_watch_brands_acc_section_GTTniq": {
-      "type": "ecom-homepage-watch-brands-acc-section",
-      "settings": {}
     }
   },
   "order": [
-    "ecom_micromilspec_hp_banner_section_HBqz3y",
+    "ecom_tsuyosa_wc_hp_slide_section_pTC8bE",
     "ecom_homepage_watch_brands_acc_section_GTTniq",
     "ecom_homepage_watch_collections_section_MB8Xck",
     "ecom_homepage_collections_section_QJUzUz"
