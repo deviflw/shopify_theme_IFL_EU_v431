@@ -966,8 +966,8 @@
           "cat_NLGYmk": {
             "type": "cat",
             "settings": {
-              "collection": "watch-stands",
-              "collection_title": "Robotoys",
+              "collection": "watch-accessories",
+              "collection_title": "All Accessories",
               "collection_subtitle": "Products",
               "collection_des": "1",
               "title_cl": "{{ shop.brand.colors.secondary[0].foreground }}",
@@ -989,16 +989,6 @@
               "collection_link": "",
               "col": "3"
             }
-          },
-          "link_AwgjgY": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Watch Accessories",
-              "url": "shopify://collections/watch-accessories",
-              "open_link": "_self",
-              "menu": "watch-accessories",
-              "col": "3"
-            }
           }
         },
         "block_order": [
@@ -1015,8 +1005,7 @@
           "link_gcGnDV",
           "cat_CQBNat",
           "cat_JKMGfR",
-          "cat_NLGYmk",
-          "link_AwgjgY"
+          "cat_NLGYmk"
         ],
         "settings": {
           "bg": "#ffffff"
