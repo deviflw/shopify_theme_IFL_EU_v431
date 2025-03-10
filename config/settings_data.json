@@ -963,6 +963,33 @@
               "col": "3"
             }
           },
+          "cat_NLGYmk": {
+            "type": "cat",
+            "settings": {
+              "collection": "watch-stands",
+              "collection_title": "Robotoys",
+              "collection_subtitle": "Products",
+              "collection_des": "1",
+              "title_cl": "{{ shop.brand.colors.secondary[0].foreground }}",
+              "title_cl_hover": "{{ shop.brand.colors.secondary[0].background }}",
+              "subtitle_cl": "{{ shop.brand.colors.primary[0].foreground }}",
+              "count_cl": "{{ shop.brand.colors.primary[0].foreground }}",
+              "border_cl": "{{ shop.brand.colors.secondary[0].foreground }}",
+              "open_link": "_self",
+              "space_bottom": 20,
+              "space_bottom_mb": 10,
+              "border": false,
+              "item_pd": 0,
+              "item_rd": 0,
+              "img_effect": "zoom",
+              "b_effect": "none",
+              "image_ratio": "ratio1_1",
+              "image_size": "cover",
+              "image_position": "8",
+              "collection_link": "",
+              "col": "3"
+            }
+          },
           "link_AwgjgY": {
             "type": "link",
             "settings": {
@@ -988,6 +1015,7 @@
           "link_gcGnDV",
           "cat_CQBNat",
           "cat_JKMGfR",
+          "cat_NLGYmk",
           "link_AwgjgY"
         ],
         "settings": {
