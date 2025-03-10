@@ -9,8 +9,8 @@
  */
 {
   "sections": {
-    "ecom_tsuyosa_wc_hp_slide_section_pTC8bE": {
-      "type": "ecom-tsuyosa-wc-hp-slide-section",
+    "ecom_oris_aquis_octopus_hp_banner_section_xmnAAA": {
+      "type": "ecom-oris-aquis-octopus-hp-banner-section",
       "settings": {}
     },
     "ecom_homepage_watch_brands_acc_section_GTTniq": {
@@ -27,7 +27,7 @@
     }
   },
   "order": [
-    "ecom_tsuyosa_wc_hp_slide_section_pTC8bE",
+    "ecom_oris_aquis_octopus_hp_banner_section_xmnAAA",
     "ecom_homepage_watch_brands_acc_section_GTTniq",
     "ecom_homepage_watch_collections_section_MB8Xck",
     "ecom_homepage_collections_section_QJUzUz"
