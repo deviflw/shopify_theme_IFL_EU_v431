@@ -1080,19 +1080,6 @@
               "icon": "las la-chair"
             }
           },
-          "menu_qqTpmb": {
-            "type": "menu",
-            "settings": {
-              "title": "Watch Winders",
-              "url": "shopify://collections/watch-winders",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "",
-              "icons_op": "0",
-              "icon": "las la-chair"
-            }
-          },
           "menu_xUyGrU": {
             "type": "menu",
             "settings": {
@@ -1171,7 +1158,6 @@
           "menu_dmiygJ",
           "menu_P8aC3n",
           "menu_XWMpYx",
-          "menu_qqTpmb",
           "menu_xUyGrU",
           "menu_KKx3GF",
           "menu_afnDFL",
