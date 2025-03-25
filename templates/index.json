@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "ecom_ufo_texas_hp_slider_section_PFMGyr": {
-      "type": "ecom-ufo-texas-hp-slider-section",
-      "settings": {}
-    },
     "ecom_homepage_watch_brands_acc_section_GTTniq": {
       "type": "ecom-homepage-watch-brands-acc-section",
       "settings": {}
@@ -24,10 +20,14 @@
     "ecom_homepage_collections_section_QJUzUz": {
       "type": "ecom-homepage-collections-section",
       "settings": {}
+    },
+    "ecom_ufo_and_casioak_black_rainbow_section_6DN4Br": {
+      "type": "ecom-ufo-and-casioak-black-rainbow-section",
+      "settings": {}
     }
   },
   "order": [
-    "ecom_ufo_texas_hp_slider_section_PFMGyr",
+    "ecom_ufo_and_casioak_black_rainbow_section_6DN4Br",
     "ecom_homepage_watch_brands_acc_section_GTTniq",
     "ecom_homepage_watch_collections_section_MB8Xck",
     "ecom_homepage_collections_section_QJUzUz"
