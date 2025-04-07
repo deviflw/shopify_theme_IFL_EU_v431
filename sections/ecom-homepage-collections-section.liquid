@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2025-04-07 06:58:09
+ At 2025-04-07 07:00:35
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -48,7 +48,7 @@
  {% assign limit = limit | plus: 0 %}
  {%- endif-%}
  
- {%- capture handle_products -%}g-shock-casioak-full-metal-tiffany,tsuyosa-rose-gold-who-cares-concept,stealth-camo-lifestyle-locker,ufo-watchcraft,green-camo-watch-box-ten-watches,tsuyosa-who-cares-concept,azure-camo-watch-roll-four-watches,prx-silver-bullet-concept-35mm{% endcapture%}
+ {%- capture handle_products -%}tsuyosa-rose-gold-who-cares-concept,g-shock-casioak-full-metal-tiffany,stealth-camo-lifestyle-locker,ufo-watchcraft,green-camo-watch-box-ten-watches,tsuyosa-who-cares-concept,azure-camo-watch-roll-four-watches,prx-silver-bullet-concept-35mm{% endcapture%}
  {% assign products = handle_products | strip | split: ',' %}
  {% if products.size < 1 and EComBuilderMode %}
  {% assign products = collections.all.products | map: 'handle' | limit: 5 %}
