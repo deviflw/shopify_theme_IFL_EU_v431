@@ -2,7 +2,7 @@
  EComposer (https://ecomposer.io)
  You SHOULD NOT modify source code in this page because
  It is automatically generated from EComposer
- At 2025-04-14 07:16:38
+ At 2025-04-24 13:15:46
  {% endcomment %} 
  
  {% assign ecom_root_url = routes.root_url %}
@@ -466,20 +466,14 @@
  assign target = product.selected_or_first_available_variant
  endif
  -%}
- <div class="ecom-product-single__price--sale {% if target.compare_at_price == nil or target.compare_at_price <= target.price %} ecom-product-single__price-normal {% endif %}"
- {% if false %} bss-b2b-product-price bss-b2b-variant-price {% endif %}
- data-price="{{target.price}}" 
- {% if false %}
- bss-b2b-product-id="{{ product.id }}"
- bss-b2b-variant-id="{{ product.selected_or_first_available_variant.id }}"
- {% endif %}
- >
+ <div class="ecom-product-single__price--sale {% if target.compare_at_price == nil or target.compare_at_price <= target.price %} ecom-product-single__price-normal {% endif %}" data-price="{{target.price}}">
  {%- if settings.currency_code_enabled -%}
  {{target.price | money_with_currency}}
  {%- else -%}
  {{target.price| money }}
  {%- endif -%}
  </div>
+ 
  
  <div class="ecom-product-single__price--regular" {%- if target.compare_at_price == nil or target.compare_at_price <= target.price -%} style="display:none" {% endif %}>
  {%- if settings.currency_code_enabled -%}
@@ -557,20 +551,39 @@
  <div class="iflw-stock-meta">
  {{ product.metafields.custom.stock_message }}
  </div>
-{% endif %}</div></div> <div class="ecom-block ecom-core core__block ecom-z1ksdbtn22 iflw-variant" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__variant-picker" deep="2"><div class="ecom-product-single__variant-picker-wrapper ecom_not_hide_dropdown_arrow"><div class="ecom-product-single__variant-picker-container {% if product.has_only_default_variant%} ecom-product-single__variant-picker--only-default{% endif%} " data-picker-type="dropdown" data-ecom-placeholder="">
+{% endif %}</div></div> <div class="ecom-block ecom-core core__block ecom-o7hvas34uk iflw-variant" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__variant-picker" deep="2"><div class="ecom-product-single__variant-picker-wrapper ecom_not_hide_dropdown_arrow"><div class="ecom-product-single__variant-picker-container {% if product.has_only_default_variant%} ecom-product-single__variant-picker--only-default{% endif%} " data-picker-type="radio" data-ecom-placeholder="">
  {%- liquid
  assign ecom_has_variant_picker = true
  assign variant_selected = product.selected_or_first_available_variant
  -%}
- <div class="ecom-product-single__variant-picker--main"></div><div class="ecom-product-single__variant-picker--options">
- <select name="id" class="ecom-product-single-select-id {% if product.has_only_default_variant %} ecom-product-single__picker-default-variant {% endif %}" data-product-id="{{product.id}}" data-json-product="product-json-{{product.id}}-ecom-z1ksdbtn22" id="ecom-variant-selector-{{product.id}}-ecom-z1ksdbtn22">
+ <div class="ecom-product-single__variant-picker--main">
+ {% unless product.has_only_default_variant%}
+ {%- for option in product.options_with_values -%}
+ {%- assign index = option.position | prepend: 'option' -%}
+ {% assign option_index = option.position | minus: 1 %}
+ <div class="ecom-product-single__picker-option-{{option.name | handleize }}">
+ <span class="ecom-product-single__picker-radio-label ecom-product-single__picker--option-label" data-option-index="{{option_index}}">
+ <span class="ecom-product-variant--option-label-text">{{option.name}}</span>
+ </span>
+ <ul class="ecom-product-single__picker-radio-list">
+ {% for value in option.values %}
+ <li class="ecom-product-single__swatch-item ecom-product-single__picker-radio-list-item {% if value == variant_selected[index] %}ecom-button-active{% endif %}" data-option-index="{{ option_index }}" data-value="{{ value | escape }}">
+ {{value}}
+ </li>
+ {% endfor %}
+ </ul>
+ </div>
+ {%- endfor -%}
+ {% endunless %}
+ </div><div class="ecom-product-single__variant-picker--options">
+ <select name="id" class="ecom-product-single-select-id {% if product.has_only_default_variant %} ecom-product-single__picker-default-variant {% endif %}" data-product-id="{{product.id}}" data-json-product="product-json-{{product.id}}-ecom-o7hvas34uk" id="ecom-variant-selector-{{product.id}}-ecom-o7hvas34uk">
  
  {% for variant in product.variants%}
  <option value="{{variant.id}}" {% if variant_selected.id == variant.id %} selected="selected" {% endif %}>{{variant.title}}</option>
  {% endfor %}
  </select>
  </div><div class="ecom-product-single__variant-picker--json">
- <script type="application/json" id="product-json-{{product.id}}-ecom-z1ksdbtn22">
+ <script type="application/json" id="product-json-{{product.id}}-ecom-o7hvas34uk">
  {%- render "ecom_product_json", product: product -%}
  </script>
  </div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-3ogjr0d2jmw" data-core-is="block"><div class="ecom-row ecom-core core__block ecom-qx5xtvo2dx iflw-pay-q-atc" data-id="ecom-qx5xtvo2dx" style="z-index: inherit;"><div data-deep="3" class="core__row--columns"><div class="ecom-column ecom-core ecom-0k75lvm58fan"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block ecom-868i33nx0h3 ifl-quantity" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__quantity" deep="3"><div class="ecom-product-single__quantity-wrapper"><div class="ecom-product-single__quantity-container"><label class="ecom-product-single__quantity-container-label" for="quantity"></label><div class="ecom-product-single__quantity-controls"><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-minus" aria-label="control minus"><span class="w-5 ecom-product-single__quantity-controls-icon"><svg class="inline-flex w-5 " viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 10a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1-.75-.75Z" fill="currentColor"></path></svg></span></button><label for="quantity" style="display: none;">Quantity</label><input name="quantity" type="number" id="quantity" min="1" max="9999" class="ecom-product-single__quantity-input" data-min-value="1" data-max-value="9999" required="" value="1"><button type="button" class="ecom-product-single__quantity-controls-button ecom-product-single__quantity-controls-plus" aria-label="control plus"><span class="w-5 ecom-product-single__quantity-controls-icon"><svg class="inline-flex w-5 " viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.75 6.75a.75.75 0 0 0-1.5 0v2.5h-2.5a.75.75 0 0 0 0 1.5h2.5v2.5a.75.75 0 0 0 1.5 0v-2.5h2.5a.75.75 0 0 0 0-1.5h-2.5v-2.5Z" fill="currentColor"></path></svg></span></button></div></div></div></div></div> <div class="ecom-block ecom-core core__block elmspace ecom-lxeqyzlwja" data-core-is="block"><div class="ecom-element ecom-product-single ecom-product-single__add-to-cart" deep="3"><div class="ecom-product-single__add-to-cart-wrapper"><div class="ecom-product-single__add-to-cart-container"><div class="ecom-product-single__add-to-cart-buttons"><div class="ecom-product-single__add-to-cart-buttons-wrapper"><button type="submit" class="ecom-product-single__add-to-cart--submit ecom-flex" data-text-add-cart="Add to cart" data-text-pre-order="Pre-order" data-text-unavailable="Unavailable" data-text-outstock="Out stock" data-text-added-cart="Added to cart" data-message-added-cart="Added to cart" data-href="#" data-target="" data-action="popup" data-variant-id="{{product.first_available_variant.id}}" name="add"><span class="ecom-add-to-cart-text">Add to cart</span><span class="ecom__element--button-icon"></span></button></div></div></div></div></div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block elmspace ecom-bq2dtkfe7wd" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">{% comment %} Product out of stock message {% endcomment %}
@@ -585,11 +598,7 @@
  <a class="button globo-open" data-id="NTE2MTc=" href="#NTE2MTc=" style="text-transform: uppercase; border: 2px solid #081820; color: #081820; background-color: transparent;">INQUIRE</a>
  {% endif %}
 </div>
-{% endif %}</div></div> <div class="ecom-block ecom-core core__block ecom-6siqawc56gx" data-core-is="block"><div class="ecom__element ecom-element element__code exporting" deep="2">
-<div class="trustpilot-widget" data-locale="en-GB" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="5e4f8f0f7170470001dc6b53" data-style-height="85px" data-style-width="130px" data-theme="light">
- <a href="https://uk.trustpilot.com/review/iflwatches.com" target="_blank" rel="noopener">Trustpilot</a>
-</div>
-</div></div> <div class="ecom-block ecom-core core__block elmspace ecom-5devg784u4w" data-core-is="block"><div class="ecom__element ecom-element element__social" deep="2"><div class="ecom__element-social facebook" style=""><a href="https://www.facebook.com/sharer/sharer.php?u={current-link}" alt="facebook" aria-label="facebook" class="element-social-link" target="_blank"><div class="social-icon"><span><svg version="1.1" id="lni_lni-facebook-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+{% endif %}</div></div> <div class="ecom-block ecom-core core__block elmspace ecom-5devg784u4w" data-core-is="block"><div class="ecom__element ecom-element element__social" deep="2"><div class="ecom__element-social facebook" style=""><a href="https://www.facebook.com/sharer/sharer.php?u={current-link}" alt="facebook" aria-label="facebook" class="element-social-link" target="_blank"><div class="social-icon"><span><svg version="1.1" id="lni_lni-facebook-filled" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
  <path d="M47.4,25.8L47.4,25.8h-5.6h-2v-2v-6.2v-2h2H46c1.1,0,2-0.8,2-2V3c0-1.1-0.8-2-2-2h-7.3c-7.9,0-13.4,5.6-13.4,13.9v8.7v2h-2
  h-6.8c-1.4,0-2.7,1.1-2.7,2.7v7.2c0,1.4,1.1,2.7,2.7,2.7h6.6h2v2v20.1c0,1.4,1.1,2.7,2.7,2.7h9.4c0.6,0,1.1-0.3,1.5-0.7
  s0.7-1.1,0.7-1.7l0,0l0,0V40.3v-2h2.1H46c1.3,0,2.3-0.8,2.5-2v-0.1v-0.1l1.4-6.9c0.1-0.7,0-1.5-0.6-2.3
