@@ -9,9 +9,9 @@
  */
 {
   "sections": {
-    "ecom_blue_flamingo_cs_hp_banner_section_4FXVAr": {
-      "type": "ecom-blue-flamingo-cs-hp-banner-section",
-      "name": "Blue Flamingo Coming Soon",
+    "ecom_blue_flamingo_hp_banner_section_kBhGzn": {
+      "type": "ecom-blue-flamingo-hp-banner-section",
+      "name": "Blue Flamingo Homepage Ba",
       "settings": {}
     },
     "ecom_homepage_watch_brands_acc_section_GTTniq": {
@@ -28,7 +28,7 @@
     }
   },
   "order": [
-    "ecom_blue_flamingo_cs_hp_banner_section_4FXVAr",
+    "ecom_blue_flamingo_hp_banner_section_kBhGzn",
     "ecom_homepage_watch_brands_acc_section_GTTniq",
     "ecom_homepage_watch_collections_section_MB8Xck",
     "ecom_homepage_collections_section_QJUzUz"
