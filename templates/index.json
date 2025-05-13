@@ -9,9 +9,9 @@
  */
 {
   "sections": {
-    "ecom_doxa_turtle_cs_hp_banner_section_CmRTif": {
-      "type": "ecom-doxa-turtle-cs-hp-banner-section",
-      "name": "DOXA Turtle Coming Soon H",
+    "ecom_blue_flamingo_hp_banner_section_YbND4E": {
+      "type": "ecom-blue-flamingo-hp-banner-section",
+      "name": "Blue Flamingo Homepage Ba",
       "settings": {}
     },
     "ecom_homepage_watch_brands_acc_section_GTTniq": {
@@ -28,7 +28,7 @@
     }
   },
   "order": [
-    "ecom_doxa_turtle_cs_hp_banner_section_CmRTif",
+    "ecom_blue_flamingo_hp_banner_section_YbND4E",
     "ecom_homepage_watch_brands_acc_section_GTTniq",
     "ecom_homepage_watch_collections_section_MB8Xck",
     "ecom_homepage_collections_section_QJUzUz"
