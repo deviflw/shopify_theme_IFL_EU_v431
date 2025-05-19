@@ -9,9 +9,9 @@
  */
 {
   "sections": {
-    "ecom_blue_flamingo_hp_banner_section_YbND4E": {
-      "type": "ecom-blue-flamingo-hp-banner-section",
-      "name": "Blue Flamingo Homepage Ba",
+    "ecom_la_feline_hp_banner_section_FhHgyA": {
+      "type": "ecom-la-feline-hp-banner-section",
+      "name": "La Féline Homepage Banner",
       "settings": {}
     },
     "ecom_homepage_watch_brands_acc_section_GTTniq": {
@@ -28,7 +28,7 @@
     }
   },
   "order": [
-    "ecom_blue_flamingo_hp_banner_section_YbND4E",
+    "ecom_la_feline_hp_banner_section_FhHgyA",
     "ecom_homepage_watch_brands_acc_section_GTTniq",
     "ecom_homepage_watch_collections_section_MB8Xck",
     "ecom_homepage_collections_section_QJUzUz"

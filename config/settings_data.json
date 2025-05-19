@@ -1816,12 +1816,12 @@
         "type": "shopify://apps/oxilayer-invoice/blocks/order_view_download_invoice/bfc5c46a-c89f-49e7-a859-28fc2c844936",
         "disabled": false,
         "settings": {
-          "type": "secondary",
           "selector": ".order h2",
           "custom_selector": "",
           "vertical_position": "afterend",
           "horizontal_position": "left",
           "clear_both": true,
+          "type": "secondary",
           "button_color": "",
           "button_color_hover": "",
           "text_color": "",
