@@ -463,15 +463,14 @@
         "blocks": {
           "base_JpxQJc": {
             "type": "base",
-            "disabled": true,
             "settings": {
-              "title": "VALENTINES",
-              "url": "shopify://collections/valentines",
+              "title": "SUMMER SALE",
+              "url": "shopify://collections/summer-sale",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
-              "lb": "50% off",
+              "lb": "40% off",
               "lb_cl": "{{ shop.brand.colors.secondary[1].background }}"
             }
           },
@@ -1016,13 +1015,12 @@
         "blocks": {
           "menu_tjHLPD": {
             "type": "menu",
-            "disabled": true,
             "settings": {
-              "title": "VALENTINES",
-              "url": "shopify://collections/valentines",
+              "title": "SUMMER SALE",
+              "url": "shopify://collections/summer-sale",
               "open_link": "_self",
               "menu": "",
-              "lb": "up to 50% off",
+              "lb": "up to 40% off",
               "lb_cl": "{{ shop.brand.colors.secondary[1].background }}",
               "icons_op": "2",
               "icon": ""
