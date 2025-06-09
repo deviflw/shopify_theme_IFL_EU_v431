@@ -9,9 +9,9 @@
  */
 {
   "sections": {
-    "ecom_seiko_explorer_hp_banner_section_PhgLX9": {
-      "type": "ecom-seiko-explorer-hp-banner-section",
-      "name": "Seiko Explorer Homepage B",
+    "ecom_sale_explorer_hp_slider_section_aA78FT": {
+      "type": "ecom-sale-explorer-hp-slider-section",
+      "name": "Sale Explorer Homepage Sl",
       "settings": {}
     },
     "ecom_homepage_watch_brands_acc_section_GTTniq": {
@@ -28,7 +28,7 @@
     }
   },
   "order": [
-    "ecom_seiko_explorer_hp_banner_section_PhgLX9",
+    "ecom_sale_explorer_hp_slider_section_aA78FT",
     "ecom_homepage_watch_brands_acc_section_GTTniq",
     "ecom_homepage_watch_collections_section_MB8Xck",
     "ecom_homepage_collections_section_QJUzUz"
