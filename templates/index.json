@@ -9,15 +9,6 @@
  */
 {
   "sections": {
-    "ecom_sale_explorer_hp_slider_section_aA78FT": {
-      "type": "ecom-sale-explorer-hp-slider-section",
-      "name": "Sale Explorer Homepage Sl",
-      "settings": {}
-    },
-    "ecom_homepage_watch_brands_acc_section_GTTniq": {
-      "type": "ecom-homepage-watch-brands-acc-section",
-      "settings": {}
-    },
     "ecom_homepage_watch_collections_section_MB8Xck": {
       "type": "ecom-homepage-watch-collections-section",
       "settings": {}
@@ -25,11 +16,21 @@
     "ecom_homepage_collections_section_QJUzUz": {
       "type": "ecom-homepage-collections-section",
       "settings": {}
+    },
+    "ecom_homepage_watch_brands_summer_section_ccJVWg": {
+      "type": "ecom-homepage-watch-brands-summer-section",
+      "name": "Homepage Watch Brands Sum",
+      "settings": {}
+    },
+    "ecom_le_loup_sale_hp_slider_section_qgEQxB": {
+      "type": "ecom-le-loup-sale-hp-slider-section",
+      "name": "Le Loup Sale Homepage Sli",
+      "settings": {}
     }
   },
   "order": [
-    "ecom_sale_explorer_hp_slider_section_aA78FT",
-    "ecom_homepage_watch_brands_acc_section_GTTniq",
+    "ecom_le_loup_sale_hp_slider_section_qgEQxB",
+    "ecom_homepage_watch_brands_summer_section_ccJVWg",
     "ecom_homepage_watch_collections_section_MB8Xck",
     "ecom_homepage_collections_section_QJUzUz"
   ]
